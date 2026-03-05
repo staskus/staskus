@@ -5,6 +5,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### What I'm Working On
 
 <!-- RECENT-REPOS:START -->
+| Repository | Commits (90d) |
+|---|---|
+| [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments) | 0 |
+| [staskus/staskus](https://github.com/staskus/staskus) | 0 |
 <!-- RECENT-REPOS:END -->
 
 ---
