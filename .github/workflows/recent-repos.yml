@@ -16,44 +16,65 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
-          SINCE=$(date -d '90 days ago' +%Y-%m-%dT00:00:00Z 2>/dev/null || date -v-90d +%Y-%m-%dT00:00:00Z)
-          USERNAME="staskus"
+          python3 <<'PYEOF'
+          import json, os, re, urllib.request
+          from datetime import datetime, timedelta, timezone
 
-          # Fetch all public push events (GitHub API returns max 300 events / 90 days)
-          EVENTS=""
-          for PAGE in 1 2 3; do
-            BATCH=$(curl -sf -H "Authorization: token $GH_TOKEN" \
-              "https://api.github.com/users/$USERNAME/events/public?per_page=100&page=$PAGE")
-            EVENTS="$EVENTS$BATCH"
-          done
+          token = os.environ["GH_TOKEN"]
+          username = "staskus"
+          since = (datetime.now(timezone.utc) - timedelta(days=90)).isoformat()
 
-          # Count push-event commits per public repo in the last 90 days
-          REPOS=$(echo "$EVENTS" | jq -rs --arg since "$SINCE" '
-            [ .[][] | select(.type == "PushEvent" and .created_at >= $since and .repo.name != null) ]
-            | group_by(.repo.name)
-            | map({
-                repo: .[0].repo.name,
-                commits: ([.[] | .payload.commits | length] | add)
+          # Fetch public events (up to 10 pages)
+          events = []
+          for page in range(1, 11):
+              url = f"https://api.github.com/users/{username}/events/public?per_page=100&page={page}"
+              req = urllib.request.Request(url, headers={
+                  "Authorization": f"token {token}",
+                  "Accept": "application/vnd.github+json"
               })
-            | sort_by(-.commits)
-            | .[:10]
-            | .[] | "| [\(.repo)](https://github.com/\(.repo)) | \(.commits) |"
-          ')
+              try:
+                  with urllib.request.urlopen(req) as resp:
+                      batch = json.loads(resp.read())
+                      if not batch:
+                          break
+                      events.extend(batch)
+              except Exception:
+                  break
+
+          # Count commits per repo from PushEvents
+          repo_commits = {}
+          for event in events:
+              if event.get("type") != "PushEvent":
+                  continue
+              if event.get("created_at", "") < since:
+                  continue
+              repo = event.get("repo", {}).get("name", "")
+              if not repo:
+                  continue
+              commits = len(event.get("payload", {}).get("commits", []))
+              repo_commits[repo] = repo_commits.get(repo, 0) + commits
+
+          # Sort by commits descending, take top 10
+          sorted_repos = sorted(repo_commits.items(), key=lambda x: -x[1])[:10]
 
           # Build markdown table
-          TABLE="| Repository | Commits (90d) |\n|---|---|\n$REPOS"
+          lines = ["| Repository | Commits (90d) |", "|---|---|"]
+          for repo, count in sorted_repos:
+              lines.append(f"| [{repo}](https://github.com/{repo}) | {count} |")
+          table = "\n".join(lines)
 
-          # Replace between markers
-          python3 - "$TABLE" <<'PYEOF'
-          import sys, re
-          table = sys.argv[1]
+          # Update README
           with open("README.md", "r") as f:
               content = f.read()
           pattern = r"(<!-- RECENT-REPOS:START -->).*?(<!-- RECENT-REPOS:END -->)"
-          replacement = r"\1\n" + table + r"\n\2"
+          replacement = f"\\1\n{table}\n\\2"
           content = re.sub(pattern, replacement, content, flags=re.DOTALL)
           with open("README.md", "w") as f:
               f.write(content)
+
+          print(f"Found {len(sorted_repos)} repos with commits in the last 90 days")
+          for repo, count in sorted_repos:
+              print(f"  {repo}: {count}")
           PYEOF
 
       - name: Commit and push
