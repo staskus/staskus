@@ -107,13 +107,13 @@ jobs:
           )
 
           body = json.dumps({
-              "model": "o3",
-              "input": [{"role": "user", "content": prompt}],
-              "max_output_tokens": 500
+              "model": "gpt-4.1",
+              "messages": [{"role": "user", "content": prompt}],
+              "max_tokens": 500
           }).encode()
 
           req = urllib.request.Request(
-              "https://api.openai.com/v1/responses",
+              "https://api.openai.com/v1/chat/completions",
               data=body,
               headers={
                   "Authorization": "Bearer " + openai_key,
@@ -124,7 +124,7 @@ jobs:
           with urllib.request.urlopen(req, timeout=120) as resp:
               result = json.loads(resp.read())
 
-          summary = result["output"][0]["content"][0]["text"].strip()
+          summary = result["choices"][0]["message"]["content"].strip()
           print("Summary: " + summary)
 
           with open("README.md", "r") as f:
