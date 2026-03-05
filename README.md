@@ -5,18 +5,16 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### What I'm Working On
 
 <!-- RECENT-REPOS:START -->
-| Repository | Commits (90d) |
-|---|---|
-| [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios) | 296 |
-| [staskus/Pomafocus](https://github.com/staskus/Pomafocus) | 125 |
-| [staskus/dreamspaces](https://github.com/staskus/dreamspaces) | 44 |
-| [staskus/iosforge](https://github.com/staskus/iosforge) | 27 |
-| [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android) | 23 |
-| [staskus/QuickBaby](https://github.com/staskus/QuickBaby) | 14 |
-| [staskus/staskus](https://github.com/staskus/staskus) | 9 |
-| [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce) | 2 |
-| [notmattpress/poocommerce](https://github.com/notmattpress/poocommerce) | 2 |
-| [staskus/AgentsHub](https://github.com/staskus/AgentsHub) | 2 |
+- 🚀 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+- 📱 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
+- 🛠 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
+- 🔬 [staskus/iosforge](https://github.com/staskus/iosforge)
+- 📦 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+- 🌐 [staskus/QuickBaby](https://github.com/staskus/QuickBaby)
+- ⚡ [staskus/staskus](https://github.com/staskus/staskus)
+- 🧩 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+- 🎯 [notmattpress/poocommerce](https://github.com/notmattpress/poocommerce)
+- 🔧 [staskus/AgentsHub](https://github.com/staskus/AgentsHub)
 <!-- RECENT-REPOS:END -->
 
 ---
