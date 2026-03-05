@@ -60,9 +60,11 @@ jobs:
 
           sorted_repos = repo_commits.most_common(10)
 
-          lines = ["| Repository | Commits (90d) |", "|---|---|"]
-          for repo, count in sorted_repos:
-              lines.append(f"| [{repo}](https://github.com/{repo}) | {count} |")
+          emojis = ["🚀", "📱", "🛠", "🔬", "📦", "🌐", "⚡", "🧩", "🎯", "🔧"]
+          lines = []
+          for i, (repo, count) in enumerate(sorted_repos):
+              emoji = emojis[i % len(emojis)]
+              lines.append(f"- {emoji} [{repo}](https://github.com/{repo})")
           table = "\n".join(lines)
 
           with open("README.md", "r") as f:
