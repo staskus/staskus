@@ -5,6 +5,13 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### What I'm Working On
 
 <!-- RECENT-REPOS:START -->
+**Open Source**
+
+- 🏢 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+- 🤝 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+- 🌍 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+- 🔩 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
+
 **Personal**
 
 - 🚀 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
@@ -14,14 +21,6 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 - 🧩 [staskus/staskus](https://github.com/staskus/staskus)
 - 🎯 [staskus/AgentsHub](https://github.com/staskus/AgentsHub)
 - 🔧 [staskus/homebrew-tap](https://github.com/staskus/homebrew-tap)
-
-**Open Source**
-
-- 🏢 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-- 🤝 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-- 🌍 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-- 🔩 [notmattpress/poocommerce](https://github.com/notmattpress/poocommerce)
-- 📋 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
 <!-- RECENT-REPOS:END -->
 
 ---
