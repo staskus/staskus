@@ -58,13 +58,25 @@ jobs:
                   print(f"Error on page {page}: {e}")
                   break
 
-          sorted_repos = repo_commits.most_common(10)
+          sorted_repos = repo_commits.most_common()
 
-          emojis = ["🚀", "📱", "🛠", "🔬", "📦", "🌐", "⚡", "🧩", "🎯", "🔧"]
-          lines = []
-          for i, (repo, count) in enumerate(sorted_repos):
-              emoji = emojis[i % len(emojis)]
+          own = [(r, c) for r, c in sorted_repos if r.startswith("staskus/")]
+          contrib = [(r, c) for r, c in sorted_repos if not r.startswith("staskus/")]
+
+          own_emojis = ["🚀", "📱", "🔬", "⚡", "🧩", "🎯", "🔧", "📦", "🌐", "🛠"]
+          contrib_emojis = ["🏢", "🤝", "🌍", "🔩", "📋", "🛡", "📊", "🔗", "🧱", "💡"]
+
+          lines = ["**Personal**", ""]
+          for i, (repo, count) in enumerate(own):
+              emoji = own_emojis[i % len(own_emojis)]
               lines.append(f"- {emoji} [{repo}](https://github.com/{repo})")
+
+          if contrib:
+              lines.extend(["", "**Open Source**", ""])
+              for i, (repo, count) in enumerate(contrib):
+                  emoji = contrib_emojis[i % len(contrib_emojis)]
+                  lines.append(f"- {emoji} [{repo}](https://github.com/{repo})")
+
           table = "\n".join(lines)
 
           with open("README.md", "r") as f:
