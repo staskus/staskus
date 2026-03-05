@@ -79,7 +79,7 @@ jobs:
               lines.append(f"- {emoji} [{repo}](https://github.com/{repo})")
 
           if own:
-              lines.extend(["", "**Personal**", ""])
+              lines.extend(["", "**Personal Tinkering**", ""])
               for i, (repo, count) in enumerate(own):
                   emoji = own_emojis[i % len(own_emojis)]
                   lines.append(f"- {emoji} [{repo}](https://github.com/{repo})")

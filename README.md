@@ -2,7 +2,7 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### What I'm Working On
+### What I Worked on Recently
 
 <!-- RECENT-REPOS:START -->
 **Open Source**
@@ -12,7 +12,7 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 - 🌍 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
 - 🔩 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
 
-**Personal**
+**Personal Tinkering**
 
 - 🚀 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
 - 📱 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
