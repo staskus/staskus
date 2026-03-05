@@ -39,11 +39,11 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- 2025-01-15 [📝 Understanding LLMs: Notes on Language Model basics](https://staskus.io/2025/12/15/%f0%9f%93%9d-understanding-llms-notes-on-language-model-basics/)
-- 2025-47-29 [📝 Understanding LLMs: Notes on ML basics](https://staskus.io/2025/11/29/understanding-llms-notes-on-ml-basics/)
-- 2025-03-23 [Learning Week 47 2025: Brains-On AI, Long-Term Thinking, Netflix &amp; Kotlin](https://staskus.io/2025/11/23/what-i-learned-week-47-2025/)
-- 2025-48-01 [When the world zigs, zag](https://staskus.io/2025/11/01/when-the-world-zigs-zag/)
-- 2024-59-06 [It was a coincidence](https://staskus.io/2024/01/06/it-was-a-coincidence/)<!-- BLOG-POST-LIST:END -->
+- 15 011 2025 [📝 Understanding LLMs: Notes on Language Model basics](https://staskus.io/2025/12/15/%f0%9f%93%9d-understanding-llms-notes-on-language-model-basics/)
+- 29 4747 2025 [📝 Understanding LLMs: Notes on ML basics](https://staskus.io/2025/11/29/understanding-llms-notes-on-ml-basics/)
+- 23 033 2025 [Learning Week 47 2025: Brains-On AI, Long-Term Thinking, Netflix &amp; Kotlin](https://staskus.io/2025/11/23/what-i-learned-week-47-2025/)
+- 01 4848 2025 [When the world zigs, zag](https://staskus.io/2025/11/01/when-the-world-zigs-zag/)
+- 06 5959 2024 [It was a coincidence](https://staskus.io/2024/01/06/it-was-a-coincidence/)<!-- BLOG-POST-LIST:END -->
 
 ---
 
