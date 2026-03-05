@@ -8,6 +8,8 @@ jobs:
   update-readme-with-activity:
     name: Update README with recent activity
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: jamesgeorge007/github-activity-readme@master
