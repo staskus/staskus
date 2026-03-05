@@ -68,7 +68,7 @@ jobs:
           personal_repos = fetch_repos(since_6m)
 
           contrib = [(r, c) for r, c in all_repos.most_common() if not r.startswith("staskus/")]
-          own = [(r, c) for r, c in personal_repos.most_common() if r.startswith("staskus/")]
+          own = [(r, c) for r, c in personal_repos.most_common() if r.startswith("staskus/") and r != "staskus/staskus"]
 
           contrib_emojis = ["🏢", "🤝", "🌍", "🔩", "📋", "🛡", "📊", "🔗", "🧱", "💡"]
           own_emojis = ["🚀", "📱", "🔬", "⚡", "🧩", "🎯", "🔧", "📦", "🌐", "🛠"]
