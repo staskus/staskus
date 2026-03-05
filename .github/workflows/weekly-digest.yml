@@ -17,8 +17,8 @@ jobs:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python3 <<'PYEOF'
-          import json, os, re, urllib.request, time
+          python3 - <<'PYEOF'
+          import json, os, re, urllib.request, time, sys
           from datetime import datetime, timedelta, timezone
 
           gh_token = os.environ["GH_TOKEN"]
@@ -26,23 +26,23 @@ jobs:
           username = "staskus"
           now = datetime.now(timezone.utc)
           since = (now - timedelta(days=7)).strftime("%Y-%m-%d")
-          period = f"{(now - timedelta(days=7)).strftime('%b %d')} - {now.strftime('%b %d, %Y')}"
+          period = (now - timedelta(days=7)).strftime("%b %d") + " - " + now.strftime("%b %d, %Y")
 
           def gh_api(url):
               req = urllib.request.Request(url, headers={
-                  "Authorization": f"token {gh_token}",
+                  "Authorization": "token " + gh_token,
                   "Accept": "application/vnd.github+json"
               })
               with urllib.request.urlopen(req) as resp:
                   return json.loads(resp.read())
 
-          # Fetch commits via Search API (reliable, includes all public repos)
+          # Fetch commits via Search API
           commits = []
           for page in range(1, 4):
               url = (
-                  f"https://api.github.com/search/commits"
-                  f"?q=author:{username}+committer-date:>{since}+is:public"
-                  f"&per_page=100&page={page}&sort=committer-date"
+                  "https://api.github.com/search/commits"
+                  "?q=author:" + username + "+committer-date:>" + since + "+is:public"
+                  "&per_page=100&page=" + str(page) + "&sort=committer-date"
               )
               try:
                   data = gh_api(url)
@@ -58,16 +58,16 @@ jobs:
                       break
                   time.sleep(2)
               except Exception as e:
-                  print(f"Commits page {page} error: {e}")
+                  print("Commits page error: " + str(e))
                   break
 
           # Fetch PRs via Search API
           prs = []
           for state in ["merged", "open"]:
               url = (
-                  f"https://api.github.com/search/issues"
-                  f"?q=author:{username}+type:pr+is:public+is:{state}+updated:>{since}"
-                  f"&per_page=50&sort=updated"
+                  "https://api.github.com/search/issues"
+                  "?q=author:" + username + "+type:pr+is:public+is:" + state + "+updated:>" + since
+                  + "&per_page=50&sort=updated"
               )
               try:
                   data = gh_api(url)
@@ -80,16 +80,14 @@ jobs:
                           "body": (item.get("body") or "")[:500]
                       })
               except Exception as e:
-                  print(f"PRs ({state}) error: {e}")
+                  print("PRs error: " + str(e))
 
-          print(f"Collected: {len(prs)} PRs, {len(commits)} commits")
+          print("Collected: " + str(len(prs)) + " PRs, " + str(len(commits)) + " commits")
 
           if not prs and not commits:
               print("No activity this week, skipping.")
-              import sys
               sys.exit(0)
 
-          # Build activity context
           activity = {
               "period": period,
               "pull_requests": prs[:20],
@@ -97,17 +95,16 @@ jobs:
           }
           activity_json = json.dumps(activity, indent=2)
 
-          # Call OpenAI
-          prompt = f"""You are writing a short weekly dev log for a GitHub profile README.
-Based on the activity data below, write a concise, engaging summary (3-6 sentences) of what
-this developer worked on this week. Write in first person. Sound like a developer blog post -
-highlight the most interesting technical work, mention specific features or fixes that stand out,
-and call out any patterns (e.g. cross-platform work, new projects). Skip mundane details like
-merge commits or bot activity. Do not use em dashes. Do not use emojis. Keep it natural and
-conversational. Output only the summary text, no headers or formatting.
-
-Activity data:
-{activity_json}"""
+          prompt = (
+              "You are writing a short weekly dev log for a GitHub profile README. "
+              "Based on the activity data below, write a concise, engaging summary (3-6 sentences) of what "
+              "this developer worked on this week. Write in first person. Sound like a developer blog post - "
+              "highlight the most interesting technical work, mention specific features or fixes that stand out, "
+              "and call out any patterns (e.g. cross-platform work, new projects). Skip mundane details like "
+              "merge commits or bot activity. Do not use em dashes. Do not use emojis. Keep it natural and "
+              "conversational. Output only the summary text, no headers or formatting.\n\n"
+              "Activity data:\n" + activity_json
+          )
 
           body = json.dumps({
               "model": "o3",
@@ -119,7 +116,7 @@ Activity data:
               "https://api.openai.com/v1/responses",
               data=body,
               headers={
-                  "Authorization": f"Bearer {openai_key}",
+                  "Authorization": "Bearer " + openai_key,
                   "Content-Type": "application/json"
               }
           )
@@ -128,13 +125,12 @@ Activity data:
               result = json.loads(resp.read())
 
           summary = result["output"][0]["content"][0]["text"].strip()
-          print(f"Summary: {summary}")
+          print("Summary: " + summary)
 
-          # Update README
           with open("README.md", "r") as f:
               content = f.read()
           pattern = r"(<!-- WEEKLY-SUMMARY:START -->).*?(<!-- WEEKLY-SUMMARY:END -->)"
-          replacement = f"\\1\n{summary}\n\\2"
+          replacement = r"\1" + "\n" + summary + "\n" + r"\2"
           content = re.sub(pattern, replacement, content, flags=re.DOTALL)
           with open("README.md", "w") as f:
               f.write(content)
