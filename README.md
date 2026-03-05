@@ -24,6 +24,13 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
+### This Week
+
+<!-- WEEKLY-SUMMARY:START -->
+<!-- WEEKLY-SUMMARY:END -->
+
+---
+
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
