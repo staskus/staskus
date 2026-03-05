@@ -2,6 +2,13 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
+### What I'm Working On
+
+<!-- RECENT-REPOS:START -->
+<!-- RECENT-REPOS:END -->
+
+---
+
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->

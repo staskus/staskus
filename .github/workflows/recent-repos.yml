@@ -1,0 +1,66 @@
+name: Recent repos
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-recent-repos:
+    name: Update README with recent repos
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch recent repos and update README
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          SINCE=$(date -d '90 days ago' +%Y-%m-%dT00:00:00Z 2>/dev/null || date -v-90d +%Y-%m-%dT00:00:00Z)
+          USERNAME="staskus"
+
+          # Fetch all public push events (GitHub API returns max 300 events / 90 days)
+          EVENTS=""
+          for PAGE in 1 2 3; do
+            BATCH=$(curl -sf -H "Authorization: token $GH_TOKEN" \
+              "https://api.github.com/users/$USERNAME/events/public?per_page=100&page=$PAGE")
+            EVENTS="$EVENTS$BATCH"
+          done
+
+          # Count push-event commits per public repo in the last 90 days
+          REPOS=$(echo "$EVENTS" | jq -rs --arg since "$SINCE" '
+            [ .[][] | select(.type == "PushEvent" and .created_at >= $since and .repo.name != null) ]
+            | group_by(.repo.name)
+            | map({
+                repo: .[0].repo.name,
+                commits: ([.[] | .payload.commits | length] | add)
+              })
+            | sort_by(-.commits)
+            | .[:10]
+            | .[] | "| [\(.repo)](https://github.com/\(.repo)) | \(.commits) |"
+          ')
+
+          # Build markdown table
+          TABLE="| Repository | Commits (90d) |\n|---|---|\n$REPOS"
+
+          # Replace between markers
+          python3 - "$TABLE" <<'PYEOF'
+          import sys, re
+          table = sys.argv[1]
+          with open("README.md", "r") as f:
+              content = f.read()
+          pattern = r"(<!-- RECENT-REPOS:START -->).*?(<!-- RECENT-REPOS:END -->)"
+          replacement = r"\1\n" + table + r"\n\2"
+          content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+          with open("README.md", "w") as f:
+              f.write(content)
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md && exit 0
+          git add README.md
+          git commit -m "Update recent repos section"
+          git push
