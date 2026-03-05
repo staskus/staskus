@@ -16,5 +16,5 @@ jobs:
         with:
           feed_list: "https://staskus.io/feed/"
           max_post_count: 5
-          date_format: "yyyy-MM-dd"
+          date_format: "dd MMM yyyy"
           template: "$newline- $date [$title]($url)"
