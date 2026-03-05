@@ -5,16 +5,23 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### What I'm Working On
 
 <!-- RECENT-REPOS:START -->
-- 🚀 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-- 📱 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
-- 🛠 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
+**Personal**
+
+- 🚀 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
+- 📱 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
 - 🔬 [staskus/iosforge](https://github.com/staskus/iosforge)
-- 📦 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-- 🌐 [staskus/QuickBaby](https://github.com/staskus/QuickBaby)
-- ⚡ [staskus/staskus](https://github.com/staskus/staskus)
-- 🧩 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-- 🎯 [notmattpress/poocommerce](https://github.com/notmattpress/poocommerce)
-- 🔧 [staskus/AgentsHub](https://github.com/staskus/AgentsHub)
+- ⚡ [staskus/QuickBaby](https://github.com/staskus/QuickBaby)
+- 🧩 [staskus/staskus](https://github.com/staskus/staskus)
+- 🎯 [staskus/AgentsHub](https://github.com/staskus/AgentsHub)
+- 🔧 [staskus/homebrew-tap](https://github.com/staskus/homebrew-tap)
+
+**Open Source**
+
+- 🏢 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+- 🤝 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+- 🌍 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+- 🔩 [notmattpress/poocommerce](https://github.com/notmattpress/poocommerce)
+- 📋 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
 <!-- RECENT-REPOS:END -->
 
 ---
