@@ -1,9 +1,4 @@
-## Hi, I'm Povilas Staskus
-
-iOS developer at [Automattic](https://automattic.com). I build apps with Swift and share what I learn.
-
-[![Blog](https://img.shields.io/badge/Blog-staskus.io-blue?style=flat-square)](https://staskus.io)
-[![GitHub](https://img.shields.io/badge/GitHub-staskus-181717?style=flat-square&logo=github)](https://github.com/staskus)
+Software engineer at [Automattic](https://automattic.com) | [WooCommerce](https://woocommerce.com)
 
 ---
 
