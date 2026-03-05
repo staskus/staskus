@@ -7,8 +7,16 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 <!-- RECENT-REPOS:START -->
 | Repository | Commits (90d) |
 |---|---|
-| [staskus/staskus](https://github.com/staskus/staskus) | 0 |
-| [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments) | 0 |
+| [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios) | 296 |
+| [staskus/Pomafocus](https://github.com/staskus/Pomafocus) | 125 |
+| [staskus/dreamspaces](https://github.com/staskus/dreamspaces) | 44 |
+| [staskus/iosforge](https://github.com/staskus/iosforge) | 27 |
+| [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android) | 23 |
+| [staskus/QuickBaby](https://github.com/staskus/QuickBaby) | 14 |
+| [staskus/staskus](https://github.com/staskus/staskus) | 9 |
+| [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce) | 2 |
+| [notmattpress/poocommerce](https://github.com/notmattpress/poocommerce) | 2 |
+| [staskus/AgentsHub](https://github.com/staskus/AgentsHub) | 2 |
 <!-- RECENT-REPOS:END -->
 
 ---
