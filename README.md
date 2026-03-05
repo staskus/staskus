@@ -1,4 +1,4 @@
-Software engineer at [Automattic](https://automattic.com) | [WooCommerce](https://woocommerce.com).
+Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https://woocommerce.com). Building and sharing what I learn.
 
 ---
 
