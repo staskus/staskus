@@ -27,6 +27,11 @@ iOS developer at [Automattic](https://automattic.com). I build apps with Swift a
 ### Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [📝 Understanding LLMs: Notes on Language Model basics](https://staskus.io/2025/12/15/%f0%9f%93%9d-understanding-llms-notes-on-language-model-basics/)
+- [📝 Understanding LLMs: Notes on ML basics](https://staskus.io/2025/11/29/understanding-llms-notes-on-ml-basics/)
+- [Learning Week 47 2025: Brains-On AI, Long-Term Thinking, Netflix &amp; Kotlin](https://staskus.io/2025/11/23/what-i-learned-week-47-2025/)
+- [When the world zigs, zag](https://staskus.io/2025/11/01/when-the-world-zigs-zag/)
+- [It was a coincidence](https://staskus.io/2024/01/06/it-was-a-coincidence/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
