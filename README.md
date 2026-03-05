@@ -48,12 +48,3 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 <p align="center">
   <img src="github-metrics.svg" alt="Metrics" />
 </p>
-
----
-
-### Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=staskus&show_icons=true&theme=onedark&hide_border=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=staskus&layout=compact&theme=onedark&hide_border=true" height="165" alt="Top Languages" />
-</p>
