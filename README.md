@@ -39,6 +39,11 @@ iOS developer at [Automattic](https://automattic.com). I build apps with Swift a
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
+1. ℹ️ Assigned PR [#16757](https://github.com/woocommerce/woocommerce-ios/pull/16757) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. 🎉 Merged PR [#16758](https://github.com/woocommerce/woocommerce-ios/pull/16758) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. 🗣 Commented on [#16758](https://github.com/woocommerce/woocommerce-ios/pull/16758#issuecomment-4002230191) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. 🎉 Merged PR [#16676](https://github.com/woocommerce/woocommerce-ios/pull/16676) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. 🎉 Merged PR [#15272](https://github.com/woocommerce/woocommerce-android/pull/15272) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
 <!--END_SECTION:activity-->
 
 ---
