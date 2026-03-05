@@ -27,6 +27,7 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### This Week
 
 <!-- WEEKLY-SUMMARY:START -->
+This week, I focused on a mix of stability fixes and feature enhancements across several projects. On the iOS point of sale app, I tackled a tricky EXC_BAD_ACCESS crash caused by concurrent accesses to a non-thread-safe dictionary and squashed subtle bugs around booking state updates, stale emails on receipts, and quirky input field behavior on iPadOS 26. I also improved the Tap to Pay workflow to ensure payments use the correct Stripe account after a store switch and added stronger PR automation by assigning labels and milestones directly from workflow steps. On the Android side, I extended the mobile announcements feature with an optional "Learn more" link to give users better context for new features. I found time to tinker with my personal tooling, too, refactoring my weekly summary workflow to improve parsing and reporting. All in all, it was a week of smoothing out the edges while pushing small but impactful new capabilities.
 <!-- WEEKLY-SUMMARY:END -->
 
 ---
