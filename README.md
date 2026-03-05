@@ -18,9 +18,8 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 - 📱 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
 - 🔬 [staskus/iosforge](https://github.com/staskus/iosforge)
 - ⚡ [staskus/QuickBaby](https://github.com/staskus/QuickBaby)
-- 🧩 [staskus/staskus](https://github.com/staskus/staskus)
-- 🎯 [staskus/AgentsHub](https://github.com/staskus/AgentsHub)
-- 🔧 [staskus/homebrew-tap](https://github.com/staskus/homebrew-tap)
+- 🧩 [staskus/AgentsHub](https://github.com/staskus/AgentsHub)
+- 🎯 [staskus/homebrew-tap](https://github.com/staskus/homebrew-tap)
 <!-- RECENT-REPOS:END -->
 
 ---
