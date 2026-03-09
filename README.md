@@ -35,11 +35,11 @@ This week I focused on refining the WooCommerce iOS and Android apps with severa
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ℹ️ Assigned PR [#16601](https://github.com/woocommerce/woocommerce-ios/pull/16601) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. ℹ️ Assigned PR [#16794](https://github.com/woocommerce/woocommerce-ios/pull/16794) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. 🗣 Commented on [#16777](https://github.com/woocommerce/woocommerce-ios/pull/16777#issuecomment-4021553897) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. ℹ️ Assigned PR [#16784](https://github.com/woocommerce/woocommerce-ios/pull/16784) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. 🗣 Commented on [#63556](https://github.com/woocommerce/woocommerce/pull/63556#issuecomment-4012310735) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+1. 🗣 Commented on [#63556](https://github.com/woocommerce/woocommerce/pull/63556#issuecomment-4025214688) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+2. ℹ️ Assigned PR [#16601](https://github.com/woocommerce/woocommerce-ios/pull/16601) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. ℹ️ Assigned PR [#16794](https://github.com/woocommerce/woocommerce-ios/pull/16794) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. 🗣 Commented on [#16777](https://github.com/woocommerce/woocommerce-ios/pull/16777#issuecomment-4021553897) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. ℹ️ Assigned PR [#16784](https://github.com/woocommerce/woocommerce-ios/pull/16784) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
