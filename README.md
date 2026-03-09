@@ -35,11 +35,11 @@ This week, I focused on a mix of stability fixes and feature enhancements across
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#63556](https://github.com/woocommerce/woocommerce/pull/63556#issuecomment-4012310735) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-2. 🎉 Merged PR [#16792](https://github.com/woocommerce/woocommerce-ios/pull/16792) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. ℹ️ Labeled PR [#16792](https://github.com/woocommerce/woocommerce-ios/pull/16792) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. 💪 Opened PR [#16792](https://github.com/woocommerce/woocommerce-ios/pull/16792) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. 🗣 Commented on [#16784](https://github.com/woocommerce/woocommerce-ios/pull/16784#issuecomment-4011701578) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. ℹ️ Assigned PR [#16784](https://github.com/woocommerce/woocommerce-ios/pull/16784) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. 🗣 Commented on [#63556](https://github.com/woocommerce/woocommerce/pull/63556#issuecomment-4012310735) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+3. 🎉 Merged PR [#16792](https://github.com/woocommerce/woocommerce-ios/pull/16792) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. ℹ️ Labeled PR [#16792](https://github.com/woocommerce/woocommerce-ios/pull/16792) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. 💪 Opened PR [#16792](https://github.com/woocommerce/woocommerce-ios/pull/16792) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
