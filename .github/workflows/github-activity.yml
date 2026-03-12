@@ -13,28 +13,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Fetch and filter activity
-        env:
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
           python3 - <<'PYEOF'
           import json, os, re, urllib.request
 
-          gh_token = os.environ["GH_TOKEN"]
           username = "staskus"
 
+          # Use unauthenticated request for public events API
+          # Authenticated requests with repo-scoped tokens only see events for those repos
           req = urllib.request.Request(
               "https://api.github.com/users/" + username + "/events/public?per_page=100",
               headers={
-                  "Authorization": "token " + gh_token,
                   "Accept": "application/vnd.github+json"
               }
           )
           with urllib.request.urlopen(req) as resp:
               events = json.loads(resp.read())
-
-          print("Total events fetched: " + str(len(events)))
-          for e in events[:10]:
-              print("  " + e.get("type", "?") + " " + e.get("repo", {}).get("name", "?"))
 
           lines = []
           for event in events:
