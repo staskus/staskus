@@ -37,11 +37,11 @@ This week, I focused on refining the WooCommerce iOS app, with a few features an
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16808]() in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#16808](https://github.com/woocommerce/woocommerce-ios/pull/16808) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 2. Commented on [#15516](https://github.com/woocommerce/woocommerce-android/pull/15516#issuecomment-4040628738) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
 3. Commented on [#15516](https://github.com/woocommerce/woocommerce-android/pull/15516#issuecomment-4039649382) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Reviewed PR [#16804]() in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Reviewed PR [#16784]() in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Reviewed PR [#16804](https://github.com/woocommerce/woocommerce-ios/pull/16804) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#16784](https://github.com/woocommerce/woocommerce-ios/pull/16784) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
