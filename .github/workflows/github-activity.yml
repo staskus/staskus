@@ -32,6 +32,10 @@ jobs:
           with urllib.request.urlopen(req) as resp:
               events = json.loads(resp.read())
 
+          print("Total events fetched: " + str(len(events)))
+          for e in events[:10]:
+              print("  " + e.get("type", "?") + " " + e.get("repo", {}).get("name", "?"))
+
           lines = []
           for event in events:
               repo = event.get("repo", {}).get("name", "")
