@@ -37,11 +37,11 @@ This week, I focused on refining the WooCommerce iOS app, with a few features an
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16808](https://github.com/woocommerce/woocommerce-ios/pull/16808) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Commented on [#15516](https://github.com/woocommerce/woocommerce-android/pull/15516#issuecomment-4040628738) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. Commented on [#15516](https://github.com/woocommerce/woocommerce-android/pull/15516#issuecomment-4039649382) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Reviewed PR [#16804](https://github.com/woocommerce/woocommerce-ios/pull/16804) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Reviewed PR [#16784](https://github.com/woocommerce/woocommerce-ios/pull/16784) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#16799](https://github.com/woocommerce/woocommerce-ios/pull/16799) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#16810](https://github.com/woocommerce/woocommerce-ios/pull/16810) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Reviewed PR [#16805](https://github.com/woocommerce/woocommerce-ios/pull/16805) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Opened PR [#16813](https://github.com/woocommerce/woocommerce-ios/pull/16813) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch woomob-2396-pos-bookings-cash-payment-button-performance in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
