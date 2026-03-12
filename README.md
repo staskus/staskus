@@ -24,22 +24,19 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### This Week
+### Week 11, 2026
 
 <!-- WEEKLY-SUMMARY:START -->
 This week I focused on refining the WooCommerce iOS and Android apps with several bug fixes and feature improvements. I tackled some particularly nasty issues, like a concurrency crash in the POS catalog sync that was causing EXC_BAD_ACCESS, and fixed Tap to Pay payments going to the wrong Stripe account after a store switch. The cash payment view got a usability overhaul to address keyboard quirks and RTL currency support on iPadOS 26. I also improved booking flow reliability and squashed a re-trigger bug with refunds when resizing windows on iPad. Beyond fixes, I added label and milestone automation to our PR tooling and kicked off cross-platform work to support email template auto-selection, keeping receipt emails robust across WooCommerce versions. On the personal side, I enhanced my GitHub profile automation and blog date formatting workflows for smoother updates.
 <!-- WEEKLY-SUMMARY:END -->
 
+[View past weeks](WEEKLY-ARCHIVE.md)
+
 ---
 
-### Recent GitHub Activity
+### Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#15516](https://github.com/woocommerce/woocommerce-android/pull/15516#issuecomment-4040628738) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-2. 🗣 Commented on [#15516](https://github.com/woocommerce/woocommerce-android/pull/15516#issuecomment-4039649382) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. 🗣 Commented on [#16586](https://github.com/woocommerce/woocommerce-ios/pull/16586#issuecomment-4032143673) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. 🎉 Merged PR [#16591](https://github.com/woocommerce/woocommerce-ios/pull/16591) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. 🗣 Commented on [#63556](https://github.com/woocommerce/woocommerce/pull/63556#issuecomment-4029698201) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
 <!--END_SECTION:activity-->
 
 ---
@@ -53,10 +50,3 @@ This week I focused on refining the WooCommerce iOS and Android apps with severa
 - Nov 1, 2025 - [When the world zigs, zag](https://staskus.io/2025/11/01/when-the-world-zigs-zag/)
 - Jan 6, 2024 - [It was a coincidence](https://staskus.io/2024/01/06/it-was-a-coincidence/)<!-- BLOG-POST-LIST:END -->
 
----
-
-### Contribution Metrics
-
-<p align="center">
-  <img src="github-metrics.svg" alt="Metrics" />
-</p>

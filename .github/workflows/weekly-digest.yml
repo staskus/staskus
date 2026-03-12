@@ -28,6 +28,10 @@ jobs:
           since = (now - timedelta(days=7)).strftime("%Y-%m-%d")
           period = (now - timedelta(days=7)).strftime("%b %d") + " - " + now.strftime("%b %d, %Y")
 
+          # Week number for heading
+          iso = now.isocalendar()
+          week_label = "Week " + str(iso[1]) + ", " + str(iso[0])
+
           def gh_api(url):
               req = urllib.request.Request(url, headers={
                   "Authorization": "token " + gh_token,
@@ -52,6 +56,9 @@ jobs:
                   for item in items:
                       msg = item.get("commit", {}).get("message", "").split("\n")[0]
                       repo = item.get("repository", {}).get("full_name", "")
+                      # Skip staskus personal repos, merge commits, and bot commits
+                      if repo.startswith("staskus/"):
+                          continue
                       if msg and "merge" not in msg.lower() and "bot" not in msg.lower():
                           commits.append({"repo": repo, "message": msg})
                   if len(items) < 100:
@@ -72,11 +79,15 @@ jobs:
               try:
                   data = gh_api(url)
                   for item in data.get("items", []):
+                      repo = "/".join(item.get("html_url", "").split("/")[3:5])
+                      # Skip staskus personal repos
+                      if repo.startswith("staskus/"):
+                          continue
                       prs.append({
                           "state": state,
                           "title": item.get("title", ""),
                           "url": item.get("html_url", ""),
-                          "repo": "/".join(item.get("html_url", "").split("/")[3:5]),
+                          "repo": repo,
                           "body": (item.get("body") or "")[:500]
                       })
               except Exception as e:
@@ -98,7 +109,8 @@ jobs:
           prompt = (
               "You are writing a short weekly dev log for a GitHub profile README. "
               "Based on the activity data below, write a concise, engaging summary (3-6 sentences) of what "
-              "this developer worked on this week. Write in first person. Sound like a developer blog post - "
+              "this developer worked on this week. Focus on open source contributions to non-personal repositories. "
+              "Write in first person. Sound like a developer blog post - "
               "highlight the most interesting technical work, mention specific features or fixes that stand out, "
               "and call out any patterns (e.g. cross-platform work, new projects). Skip mundane details like "
               "merge commits or bot activity. Do not use em dashes. Do not use emojis. Keep it natural and "
@@ -127,11 +139,47 @@ jobs:
           summary = result["choices"][0]["message"]["content"].strip()
           print("Summary: " + summary)
 
+          # --- Archive previous week's summary before replacing ---
           with open("README.md", "r") as f:
               content = f.read()
+
+          # Extract current week heading and summary
+          heading_match = re.search(r"### (Week \d+, \d{4})", content)
+          summary_match = re.search(
+              r"<!-- WEEKLY-SUMMARY:START -->\n(.*?)\n<!-- WEEKLY-SUMMARY:END -->",
+              content, flags=re.DOTALL
+          )
+          old_heading = heading_match.group(1) if heading_match else None
+          old_summary = summary_match.group(1).strip() if summary_match else None
+
+          if old_heading and old_summary:
+              archive_entry = "### " + old_heading + "\n\n" + old_summary + "\n\n---\n\n"
+              with open("WEEKLY-ARCHIVE.md", "r") as f:
+                  archive = f.read()
+              # Insert after the header separator
+              marker = "---\n\n"
+              idx = archive.find(marker)
+              if idx >= 0:
+                  insert_pos = idx + len(marker)
+                  archive = archive[:insert_pos] + archive_entry + archive[insert_pos:]
+              else:
+                  archive += "\n" + archive_entry
+              with open("WEEKLY-ARCHIVE.md", "w") as f:
+                  f.write(archive)
+              print("Archived: " + old_heading)
+
+          # --- Update README with new week heading and summary ---
+          # Update week heading
+          content = re.sub(
+              r"### Week \d+, \d{4}",
+              "### " + week_label,
+              content
+          )
+          # Update summary
           pattern = r"(<!-- WEEKLY-SUMMARY:START -->).*?(<!-- WEEKLY-SUMMARY:END -->)"
           replacement = r"\1" + "\n" + summary + "\n" + r"\2"
           content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
           with open("README.md", "w") as f:
               f.write(content)
           PYEOF
@@ -140,7 +188,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git diff --quiet README.md && exit 0
-          git add README.md
+          git diff --quiet README.md WEEKLY-ARCHIVE.md && exit 0
+          git add README.md WEEKLY-ARCHIVE.md
           git commit -m "Update weekly summary"
           git push

@@ -1,4 +1,4 @@
-name: Recent GitHub activity
+name: Recent activity
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -12,8 +12,112 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+      - name: Fetch and filter activity
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          MAX_LINES: 5
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, re, urllib.request
+
+          gh_token = os.environ["GH_TOKEN"]
+          username = "staskus"
+
+          req = urllib.request.Request(
+              "https://api.github.com/users/" + username + "/events/public?per_page=100",
+              headers={
+                  "Authorization": "token " + gh_token,
+                  "Accept": "application/vnd.github+json"
+              }
+          )
+          with urllib.request.urlopen(req) as resp:
+              events = json.loads(resp.read())
+
+          lines = []
+          for event in events:
+              repo = event.get("repo", {}).get("name", "")
+              # Skip personal staskus repos
+              if repo.startswith("staskus/"):
+                  continue
+
+              etype = event.get("type", "")
+              payload = event.get("payload", {})
+              line = None
+
+              if etype == "PullRequestEvent":
+                  pr = payload.get("pull_request", {})
+                  action = payload.get("action", "")
+                  merged = pr.get("merged", False)
+                  num = pr.get("number", "")
+                  url = pr.get("html_url", "")
+                  title = pr.get("title", "")
+                  if action == "closed" and merged:
+                      line = "Merged PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+                  elif action == "opened":
+                      line = "Opened PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+
+              elif etype == "IssueCommentEvent":
+                  comment = payload.get("comment", {})
+                  issue = payload.get("issue", {})
+                  num = issue.get("number", "")
+                  url = comment.get("html_url", "")
+                  line = "Commented on [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+
+              elif etype == "IssuesEvent":
+                  action = payload.get("action", "")
+                  issue = payload.get("issue", {})
+                  num = issue.get("number", "")
+                  url = issue.get("html_url", "")
+                  if action == "opened":
+                      line = "Opened issue [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+                  elif action == "closed":
+                      line = "Closed issue [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+
+              elif etype == "PushEvent":
+                  count = payload.get("size", 0)
+                  ref = payload.get("ref", "").replace("refs/heads/", "")
+                  line = "Pushed " + str(count) + " commit" + ("s" if count != 1 else "") + " to " + ref + " in [" + repo + "](https://github.com/" + repo + ")"
+
+              elif etype == "CreateEvent":
+                  ref_type = payload.get("ref_type", "")
+                  ref = payload.get("ref", "")
+                  if ref_type == "branch":
+                      line = "Created branch " + ref + " in [" + repo + "](https://github.com/" + repo + ")"
+
+              elif etype == "PullRequestReviewEvent":
+                  pr = payload.get("pull_request", {})
+                  num = pr.get("number", "")
+                  url = pr.get("html_url", "")
+                  line = "Reviewed PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+
+              if line and line not in [l.split(". ", 1)[1] if ". " in l else l for l in lines]:
+                  lines.append(str(len(lines) + 1) + ". " + line)
+                  if len(lines) >= 5:
+                      break
+
+          if not lines:
+              print("No non-personal activity found.")
+              import sys
+              sys.exit(0)
+
+          activity_text = "\n".join(lines)
+          print("Activity:\n" + activity_text)
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          pattern = r"(<!--START_SECTION:activity-->).*?(<!--END_SECTION:activity-->)"
+          replacement = r"\1" + "\n" + activity_text + "\n" + r"\2"
+          content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+          with open("README.md", "w") as f:
+              f.write(content)
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md && exit 0
+          git add README.md
+          git commit -m "Update recent activity"
+          git push
