@@ -46,7 +46,7 @@ jobs:
                   action = payload.get("action", "")
                   merged = pr.get("merged", False)
                   num = pr.get("number", "")
-                  url = pr.get("html_url", "")
+                  url = pr.get("html_url", "") or ("https://github.com/" + repo + "/pull/" + str(num))
                   title = pr.get("title", "")
                   if action == "closed" and merged:
                       line = "Merged PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
@@ -84,7 +84,7 @@ jobs:
               elif etype == "PullRequestReviewEvent":
                   pr = payload.get("pull_request", {})
                   num = pr.get("number", "")
-                  url = pr.get("html_url", "")
+                  url = pr.get("html_url", "") or ("https://github.com/" + repo + "/pull/" + str(num))
                   line = "Reviewed PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
 
               if line and line not in [l.split(". ", 1)[1] if ". " in l else l for l in lines]:
