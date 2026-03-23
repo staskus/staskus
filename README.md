@@ -37,7 +37,7 @@ This week I focused on improving the WooCommerce POS receipt email flow across p
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. Commented on [#11480](https://github.com/Automattic/woocommerce-payments/pull/11480#issuecomment-4110186548) in [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
+1. Reviewed PR [#11480](https://github.com/Automattic/woocommerce-payments/pull/11480) in [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
 2. Opened PR [#285](https://github.com/woocommerce/woocommerce-rest-api-docs/pull/285) in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
 3. Created branch update/send-email-optional-template-id in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
 4. Reviewed PR [#16848](https://github.com/woocommerce/woocommerce-ios/pull/16848) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
