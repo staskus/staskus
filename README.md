@@ -37,11 +37,11 @@ This week, I focused on making several impactful contributions to WooCommerce's 
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. Commented on [#15485](https://github.com/woocommerce/woocommerce-android/pull/15485#issuecomment-4081101511) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-2. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to woomob-2403-pos-bookings-emails-send-a-correct-email-if-booking-was-paid in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to task/phone-pos in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to trunk in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+1. Reviewed PR [#16829](https://github.com/woocommerce/woocommerce-ios/pull/16829) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#16846](https://github.com/woocommerce/woocommerce-ios/pull/16846) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Commented on [#15485](https://github.com/woocommerce/woocommerce-android/pull/15485#issuecomment-4081101511) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to woomob-2403-pos-bookings-emails-send-a-correct-email-if-booking-was-paid in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
