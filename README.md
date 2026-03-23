@@ -24,10 +24,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### Week 12, 2026
+### Week 13, 2026
 
 <!-- WEEKLY-SUMMARY:START -->
-This week, I focused on making several impactful contributions to WooCommerce's open source repositories. I shipped a feature to the iOS app that enriches mobile announcements by adding a "Learn more" CTA, giving users the option to dig deeper into what's new. On the POS front, I opened a pull request to improve the cash payment workflow, ensuring the cash view launches instantly without UI delays or conflicts. I also worked on enhancing card reader reliability by supporting auto-reconnection for Bluetooth devices, inspired by similar improvements on Android, which helps keep the app and hardware in sync during unexpected disconnects. Finally, I started making the template_id optional in WooCommerce’s email sending action to streamline server-side processing. This week was all about polishing the user experience and building more resilient cross-platform flows.
+This week I focused on improving the WooCommerce POS receipt email flow across platforms. I contributed a core WooCommerce change that makes the email template selection automatic on the server side, allowing clients to omit the template_id for WooCommerce 10.7.0 and above. I shipped the corresponding update to the iOS app, threading this logic through the networking and POS layers so bookings and refunded orders send the correct receipt emails without extra client complexity. I also started work on the same fix for Android to keep behavior consistent. In addition, I began implementing auto-reconnection support for Stripe Bluetooth card readers on iOS, making the app more resilient to unexpected disconnects.
 <!-- WEEKLY-SUMMARY:END -->
 
 [View past weeks](WEEKLY-ARCHIVE.md)
