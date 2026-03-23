@@ -37,11 +37,11 @@ This week I focused on improving the WooCommerce POS receipt email flow across p
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16829](https://github.com/woocommerce/woocommerce-ios/pull/16829) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Reviewed PR [#16846](https://github.com/woocommerce/woocommerce-ios/pull/16846) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Commented on [#15485](https://github.com/woocommerce/woocommerce-android/pull/15485#issuecomment-4081101511) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to woomob-2403-pos-bookings-emails-send-a-correct-email-if-booking-was-paid in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Commented on [#11480](https://github.com/Automattic/woocommerce-payments/pull/11480#issuecomment-4110186548) in [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
+2. Opened PR [#285](https://github.com/woocommerce/woocommerce-rest-api-docs/pull/285) in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
+3. Created branch update/send-email-optional-template-id in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
+4. Reviewed PR [#16848](https://github.com/woocommerce/woocommerce-ios/pull/16848) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#16847](https://github.com/woocommerce/woocommerce-ios/pull/16847) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
