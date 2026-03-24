@@ -37,11 +37,11 @@ This week I focused on improving the WooCommerce POS receipt email flow across p
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#11480](https://github.com/Automattic/woocommerce-payments/pull/11480) in [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
-2. Opened PR [#285](https://github.com/woocommerce/woocommerce-rest-api-docs/pull/285) in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
-3. Created branch update/send-email-optional-template-id in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
-4. Reviewed PR [#16848](https://github.com/woocommerce/woocommerce-ios/pull/16848) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Reviewed PR [#16847](https://github.com/woocommerce/woocommerce-ios/pull/16847) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to woomob-2403-pos-bookings-emails-send-a-correct-email-if-booking-was-paid in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+2. Reviewed PR [#15485](https://github.com/woocommerce/woocommerce-android/pull/15485) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+3. Reviewed PR [#11480](https://github.com/Automattic/woocommerce-payments/pull/11480) in [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
+4. Opened PR [#285](https://github.com/woocommerce/woocommerce-rest-api-docs/pull/285) in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
+5. Created branch update/send-email-optional-template-id in [woocommerce/woocommerce-rest-api-docs](https://github.com/woocommerce/woocommerce-rest-api-docs)
 <!--END_SECTION:activity-->
 
 ---
