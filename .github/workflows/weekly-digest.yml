@@ -152,21 +152,25 @@ jobs:
           old_heading = heading_match.group(1) if heading_match else None
           old_summary = summary_match.group(1).strip() if summary_match else None
 
-          if old_heading and old_summary:
-              archive_entry = "### " + old_heading + "\n\n" + old_summary + "\n\n---\n\n"
+          if old_heading and old_summary and old_heading != week_label:
+              # Only archive if the week changed (avoids duplicates on re-runs)
               with open("WEEKLY-ARCHIVE.md", "r") as f:
                   archive = f.read()
-              # Insert after the header separator
-              marker = "---\n\n"
-              idx = archive.find(marker)
-              if idx >= 0:
-                  insert_pos = idx + len(marker)
-                  archive = archive[:insert_pos] + archive_entry + archive[insert_pos:]
+              # Also skip if this heading is already in the archive
+              if "### " + old_heading not in archive:
+                  archive_entry = "### " + old_heading + "\n\n" + old_summary + "\n\n---\n\n"
+                  marker = "---\n\n"
+                  idx = archive.find(marker)
+                  if idx >= 0:
+                      insert_pos = idx + len(marker)
+                      archive = archive[:insert_pos] + archive_entry + archive[insert_pos:]
+                  else:
+                      archive += "\n" + archive_entry
+                  with open("WEEKLY-ARCHIVE.md", "w") as f:
+                      f.write(archive)
+                  print("Archived: " + old_heading)
               else:
-                  archive += "\n" + archive_entry
-              with open("WEEKLY-ARCHIVE.md", "w") as f:
-                  f.write(archive)
-              print("Archived: " + old_heading)
+                  print("Skipped archive: " + old_heading + " already exists")
 
           # --- Update README with new week heading and summary ---
           # Update week heading

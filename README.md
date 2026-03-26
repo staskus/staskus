@@ -34,7 +34,7 @@ This week I focused on improving the WooCommerce POS receipt email flow across p
 
 ---
 
-### Recent Activity
+### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
 1. Reviewed PR [#16848](https://github.com/woocommerce/woocommerce-ios/pull/16848) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
