@@ -37,11 +37,11 @@ This week I focused on improving the WooCommerce POS receipt email flow across p
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16854](https://github.com/woocommerce/woocommerce-ios/pull/16854) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to fix/woomob-2541-pos-refund-double-negation in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Reviewed PR [#15572](https://github.com/woocommerce/woocommerce-android/pull/15572) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-5. Reviewed PR [#16850](https://github.com/woocommerce/woocommerce-ios/pull/16850) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#16842](https://github.com/woocommerce/woocommerce-ios/pull/16842) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#16854](https://github.com/woocommerce/woocommerce-ios/pull/16854) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to fix/woomob-2541-pos-refund-double-negation in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#15572](https://github.com/woocommerce/woocommerce-android/pull/15572) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
 <!--END_SECTION:activity-->
 
 ---
