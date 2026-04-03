@@ -37,11 +37,11 @@ This week I focused on improving the WooCommerce POS experience across iOS and A
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16887](https://github.com/woocommerce/woocommerce-ios/pull/16887) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Opened PR [#16885](https://github.com/woocommerce/woocommerce-ios/pull/16885) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Created branch task/performance-optimization-skill in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Reviewed PR [#16878](https://github.com/woocommerce/woocommerce-ios/pull/16878) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to woomob-2579-pos-improve-cash-payment-view-transitions-and-performance in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#16877](https://github.com/woocommerce/woocommerce-ios/pull/16877) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#16887](https://github.com/woocommerce/woocommerce-ios/pull/16887) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Opened PR [#16885](https://github.com/woocommerce/woocommerce-ios/pull/16885) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Created branch task/performance-optimization-skill in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#16878](https://github.com/woocommerce/woocommerce-ios/pull/16878) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
