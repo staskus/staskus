@@ -37,11 +37,11 @@ This week I focused on enhancing the WooCommerce iOS app’s point of sale (POS)
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16899](https://github.com/woocommerce/woocommerce-ios/pull/16899) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to woomob-pos-payment-identification-stripe in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-3. Pushed 0 commits to woomob-pos-payment-identification in [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
-4. Opened PR [#64029](https://github.com/woocommerce/woocommerce/pull/64029) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-5. Opened PR [#5226](https://github.com/woocommerce/woocommerce-gateway-stripe/pull/5226) in [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
+1. Pushed 0 commits to woomob-1605-woo-possettings-investigate-potential-non-recoverable-reader in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Commented on [#16586](https://github.com/woocommerce/woocommerce-ios/pull/16586#issuecomment-4200908521) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to woomob-pos-payment-identification-stripe in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+4. Opened PR [#16906](https://github.com/woocommerce/woocommerce-ios/pull/16906) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch woomob-1605-woo-possettings-investigate-potential-non-recoverable-reader in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
