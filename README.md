@@ -37,11 +37,11 @@ This week I focused on enhancing the WooCommerce iOS app’s point of sale (POS)
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to woomob-2028-support-card-reader-auto-reconnection in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Reviewed PR [#16907](https://github.com/woocommerce/woocommerce-ios/pull/16907) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to woomob-2579-pos-totalsview-performance-optimizations in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch task/pos-prototype-environment in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#64029](https://github.com/woocommerce/woocommerce/pull/64029) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+2. Reviewed PR [#16913](https://github.com/woocommerce/woocommerce-ios/pull/16913) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to woomob-2028-support-card-reader-auto-reconnection in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Reviewed PR [#16907](https://github.com/woocommerce/woocommerce-ios/pull/16907) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
