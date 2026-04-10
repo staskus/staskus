@@ -37,11 +37,11 @@ This week I focused on enhancing the WooCommerce iOS app’s point of sale (POS)
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16923](https://github.com/woocommerce/woocommerce-ios/pull/16923) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Reviewed PR [#16904](https://github.com/woocommerce/woocommerce-ios/pull/16904) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#16907](https://github.com/woocommerce/woocommerce-ios/pull/16907) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Commented on [#5226](https://github.com/woocommerce/woocommerce-gateway-stripe/pull/5226#issuecomment-4214442778) in [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
-5. Reviewed PR [#64029](https://github.com/woocommerce/woocommerce/pull/64029) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+1. Reviewed PR [#16898](https://github.com/woocommerce/woocommerce-ios/pull/16898) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Commented on [#16918](https://github.com/woocommerce/woocommerce-ios/pull/16918#issuecomment-4224170110) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Reviewed PR [#16906](https://github.com/woocommerce/woocommerce-ios/pull/16906) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Reviewed PR [#16918](https://github.com/woocommerce/woocommerce-ios/pull/16918) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#16923](https://github.com/woocommerce/woocommerce-ios/pull/16923) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
