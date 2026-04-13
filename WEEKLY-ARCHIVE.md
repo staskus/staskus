@@ -4,6 +4,12 @@ Past weekly summaries, newest first.
 
 ---
 
+### Week 15, 2026
+
+This week I focused on enhancing the WooCommerce iOS app’s point of sale (POS) experience. I refactored the checkout flow to leverage NavigationStack for cash payments and email receipts, delivering smoother and more predictable navigation in both cart and booking flows. Another highlight was migrating the POS Settings to use a unified split view architecture, which now adapts gracefully between iPad and iPhone layouts for a more consistent experience. I also tackled some tricky concurrency and state management issues so that opening the Cash view now feels instant even when cancelling a card payment in the background. In addition, I opened PRs to improve build times, optimize spinner animations in checkout, and started adding auto-reconnection for card readers. Overall, this week was all about removing friction and making the POS experience more robust and responsive.
+
+---
+
 ### Week 14, 2026
 
 This week I focused on improving the WooCommerce POS experience across iOS and Android, solving a tricky issue where refunded item quantities were accidentally being stored as positive values instead of negative due to double negation in the backend logic. This fix makes partial refunds display correctly in order emails and analytics. I also enhanced the Android app’s receipt emailing to align with recent WooCommerce backend changes: now, for versions 10.7.0 and above, omitting the template ID lets the server automatically pick the best email template—a feature useful for bookings and refunds. To round things out, I opened documentation updates clarifying that this template ID is now optional, helping others leverage this new flexibility in their integrations. It has been rewarding to work on cross-platform solutions and keep WooCommerce mobile apps in sync with evolving API behavior.
