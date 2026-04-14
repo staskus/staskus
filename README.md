@@ -37,11 +37,11 @@ This week, I focused on improving the WooCommerce POS experience across several 
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to woomob-1605-woo-possettings-investigate-potential-non-recoverable-reader in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Commented on [#16926](https://github.com/woocommerce/woocommerce-ios/pull/16926#issuecomment-4236235107) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Commented on [#5226](https://github.com/woocommerce/woocommerce-gateway-stripe/pull/5226#issuecomment-4235504487) in [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
-5. Reviewed PR [#5226](https://github.com/woocommerce/woocommerce-gateway-stripe/pull/5226) in [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
+1. Reviewed PR [#16926](https://github.com/woocommerce/woocommerce-ios/pull/16926) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Reviewed PR [#16921](https://github.com/woocommerce/woocommerce-ios/pull/16921) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to vm/woomob-1837-v2 in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to woomob-1605-woo-possettings-investigate-potential-non-recoverable-reader in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
