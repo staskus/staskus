@@ -37,11 +37,11 @@ This week, I focused on improving the WooCommerce POS experience across several 
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to feature/pos-roles-permissions in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Reviewed PR [#16932](https://github.com/woocommerce/woocommerce-ios/pull/16932) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#16926](https://github.com/woocommerce/woocommerce-ios/pull/16926) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Opened PR [#16940](https://github.com/woocommerce/woocommerce-ios/pull/16940) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch feature/pos-roles-permissions in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Opened PR [#16950](https://github.com/woocommerce/woocommerce-ios/pull/16950) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Created branch issue/pos-payment-model-concurrency-test-hangs in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to feature/pos-roles-permissions in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Reviewed PR [#16932](https://github.com/woocommerce/woocommerce-ios/pull/16932) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#16926](https://github.com/woocommerce/woocommerce-ios/pull/16926) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
