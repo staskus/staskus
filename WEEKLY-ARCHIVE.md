@@ -4,6 +4,12 @@ Past weekly summaries, newest first.
 
 ---
 
+### Week 16, 2026
+
+This week, I focused on improving the WooCommerce POS experience across several open source repositories. I shipped a significant performance optimization for the POS checkout flow on iOS, replacing an old timer-based spinner with an efficient, animatable SwiftUI shape to reduce view updates during payments. I also worked on making card reader recovery more robust, adding safeguards against duplicate connection attempts and proper handling of auto-reconnection events from the Stripe Terminal SDK. On the server side, I contributed to both the Stripe gateway and WooCommerce core by adding support for storing and detecting a new metadata field identifying POS terminal payments, which helps suppress unnecessary customer emails for in-person sales. It has been a satisfying week tying together the mobile and backend pieces for a smoother POS workflow.
+
+---
+
 ### Week 15, 2026
 
 This week I focused on enhancing the WooCommerce iOS app’s point of sale (POS) experience. I refactored the checkout flow to leverage NavigationStack for cash payments and email receipts, delivering smoother and more predictable navigation in both cart and booking flows. Another highlight was migrating the POS Settings to use a unified split view architecture, which now adapts gracefully between iPad and iPhone layouts for a more consistent experience. I also tackled some tricky concurrency and state management issues so that opening the Cash view now feels instant even when cancelling a card payment in the background. In addition, I opened PRs to improve build times, optimize spinner animations in checkout, and started adding auto-reconnection for card readers. Overall, this week was all about removing friction and making the POS experience more robust and responsive.

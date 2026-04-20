@@ -24,10 +24,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### Week 16, 2026
+### Week 17, 2026
 
 <!-- WEEKLY-SUMMARY:START -->
-This week, I focused on improving the WooCommerce POS experience across several open source repositories. I shipped a significant performance optimization for the POS checkout flow on iOS, replacing an old timer-based spinner with an efficient, animatable SwiftUI shape to reduce view updates during payments. I also worked on making card reader recovery more robust, adding safeguards against duplicate connection attempts and proper handling of auto-reconnection events from the Stripe Terminal SDK. On the server side, I contributed to both the Stripe gateway and WooCommerce core by adding support for storing and detecting a new metadata field identifying POS terminal payments, which helps suppress unnecessary customer emails for in-person sales. It has been a satisfying week tying together the mobile and backend pieces for a smoother POS workflow.
+This week I focused on making the POS experience more robust in the WooCommerce iOS app. I tackled some tricky concurrency issues, fixing hangs in the POSPaymentModel tests on CI and ensuring that multiple concurrent connectCardReader calls no longer tie up jobs for hours. I also improved the reliability of connecting to POS readers by blocking duplicate connection attempts and cancelling outdated connection requests, which should prevent a whole class of hard-to-reproduce bugs. On top of that, I worked on a major feature to introduce POS roles and permissions, complete with both local and remote flows behind feature flags. It’s been a week of digging deep into multi-threaded flows and expanding the capability model for real-world POS needs.
 <!-- WEEKLY-SUMMARY:END -->
 
 [View past weeks](WEEKLY-ARCHIVE.md)
