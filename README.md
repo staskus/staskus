@@ -38,10 +38,10 @@ This week I focused on making the POS experience more robust in the WooCommerce 
 
 <!--START_SECTION:activity-->
 1. Pushed 0 commits to feature/pos-roles-permissions in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Created branch feature/pos-roles-permissions in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-3. Created branch test/push in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Opened PR [#16950](https://github.com/woocommerce/woocommerce-ios/pull/16950) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to feature/pos-roles-permissions in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+3. Opened PR [#64264](https://github.com/woocommerce/woocommerce/pull/64264) in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+4. Created branch feature/pos-roles-permissions in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+5. Created branch test/push in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
