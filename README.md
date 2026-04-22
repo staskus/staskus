@@ -10,7 +10,8 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 - 🏢 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 - 🤝 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
 - 🌍 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-- 🔩 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
+- 🔩 [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
+- 📋 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
 
 **Personal Tinkering**
 
