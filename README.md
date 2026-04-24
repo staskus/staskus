@@ -38,11 +38,11 @@ This week I focused on making the POS experience more robust in the WooCommerce 
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to feature/pos-roles-permissions in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-2. Pushed 0 commits to woomob-2753-remove-ciab-pos-and-ipp-code-on-ios in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to woomob-pos-payment-identification-stripe in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-4. Opened PR [#16962](https://github.com/woocommerce/woocommerce-ios/pull/16962) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch woomob-2753-remove-ciab-pos-and-ipp-code-on-ios in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to woomob-2788-ios-app-blocks-woopayments-kyc-stripe-popup in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Opened PR [#16971](https://github.com/woocommerce/woocommerce-ios/pull/16971) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Created branch woomob-2788-ios-app-blocks-woopayments-kyc-stripe-popup in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to woomob-2753-remove-ciab-pos-and-ipp-code-on-ios in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
