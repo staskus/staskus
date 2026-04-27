@@ -38,11 +38,11 @@ This week I focused on improving Point of Sale (POS) flows across the WooCommerc
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Opened PR [#16982](https://github.com/woocommerce/woocommerce-ios/pull/16982) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Created branch WOOMOB-2863-typed-tool-result-envelope in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to woomob-2788-ios-app-blocks-woopayments-kyc-stripe-popup in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Reviewed PR [#16972](https://github.com/woocommerce/woocommerce-ios/pull/16972) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#16971](https://github.com/woocommerce/woocommerce-ios/pull/16971) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to fix/pos-refunds-mock-mainactor in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Reviewed PR [#15751](https://github.com/woocommerce/woocommerce-android/pull/15751) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+4. Opened PR [#16985](https://github.com/woocommerce/woocommerce-ios/pull/16985) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch WOOMOB-2864-chat-session-models in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
