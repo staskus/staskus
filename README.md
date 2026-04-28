@@ -38,11 +38,11 @@ This week I focused on improving Point of Sale (POS) flows across the WooCommerc
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#16971](https://github.com/woocommerce/woocommerce-ios/pull/16971) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to fix/pos-refunds-mock-mainactor in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#15751](https://github.com/woocommerce/woocommerce-android/pull/15751) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Opened PR [#16985](https://github.com/woocommerce/woocommerce-ios/pull/16985) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch WOOMOB-2864-chat-session-models in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-2867-rest-write-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Opened PR [#16995](https://github.com/woocommerce/woocommerce-ios/pull/16995) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Created branch WOOMOB-2867-rest-write-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Opened PR [#16994](https://github.com/woocommerce/woocommerce-ios/pull/16994) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch WOOMOB-2866-rest-read-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
