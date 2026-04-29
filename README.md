@@ -38,11 +38,11 @@ This week I focused on improving Point of Sale (POS) flows across the WooCommerc
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to WOOMOB-2871-streaming-chat-transport in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Opened PR [#17006](https://github.com/woocommerce/woocommerce-ios/pull/17006) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Created branch WOOMOB-2871-streaming-chat-transport in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to WOOMOB-2870-agentic-loop-orchestrator in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to WOOMOB-2873-openai-chat-schema in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to WOOMOB-2870-agentic-loop-orchestrator in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Commented on [#17002](https://github.com/woocommerce/woocommerce-ios/pull/17002#issuecomment-4343145010) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Opened PR [#17010](https://github.com/woocommerce/woocommerce-ios/pull/17010) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch WOOMOB-2876-merged-system-prompt in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
