@@ -38,11 +38,11 @@ This week I focused on improving Point of Sale (POS) flows across the WooCommerc
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#15764](https://github.com/woocommerce/woocommerce-android/pull/15764) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-2. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#16996](https://github.com/woocommerce/woocommerce-ios/pull/16996) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Opened PR [#17001](https://github.com/woocommerce/woocommerce-ios/pull/17001) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch WOOMOB-2873-openai-chat-schema in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-2871-streaming-chat-transport in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Opened PR [#17006](https://github.com/woocommerce/woocommerce-ios/pull/17006) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Created branch WOOMOB-2871-streaming-chat-transport in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to WOOMOB-2870-agentic-loop-orchestrator in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to WOOMOB-2873-openai-chat-schema in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
