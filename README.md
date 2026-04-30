@@ -38,11 +38,11 @@ This week I focused on improving Point of Sale (POS) flows across the WooCommerc
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Commented on [#17010](https://github.com/woocommerce/woocommerce-ios/pull/17010#issuecomment-4352761395) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-2944-history-budgeter in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 2. Pushed 0 commits to WOOMOB-2879-headless-harness in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to WOOMOB-2876-merged-system-prompt in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Reviewed PR [#15786](https://github.com/woocommerce/woocommerce-android/pull/15786) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-5. Commented on [#17010](https://github.com/woocommerce/woocommerce-ios/pull/17010#issuecomment-4351905116) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to WOOMOB-2874-chat-backend-and-controller in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Reviewed PR [#15787](https://github.com/woocommerce/woocommerce-android/pull/15787) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
