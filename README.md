@@ -38,11 +38,11 @@ This week I focused on improving Point of Sale (POS) flows across the WooCommerc
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#15790](https://github.com/woocommerce/woocommerce-android/pull/15790) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-2. Reviewed PR [#15799](https://github.com/woocommerce/woocommerce-android/pull/15799) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. Reviewed PR [#15798](https://github.com/woocommerce/woocommerce-android/pull/15798) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Reviewed PR [#15789](https://github.com/woocommerce/woocommerce-android/pull/15789) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-5. Pushed 0 commits to WOOMOB-2874-chat-backend-and-controller in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-2944-history-budgeter in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to WOOMOB-2879-headless-harness in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to WOOMOB-2874-chat-backend-and-controller in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to WOOMOB-2875-assistant-chat-design-tokens in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
