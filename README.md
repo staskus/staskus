@@ -38,11 +38,11 @@ This week I focused on improving Point of Sale (POS) flows across the WooCommerc
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to WOOMOB-2875-assistant-chat-design-tokens in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#15802](https://github.com/woocommerce/woocommerce-android/pull/15802) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Reviewed PR [#15801](https://github.com/woocommerce/woocommerce-android/pull/15801) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-5. Reviewed PR [#17026](https://github.com/woocommerce/woocommerce-ios/pull/17026) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-2883-dashboard-and-wiring in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Opened PR [#17037](https://github.com/woocommerce/woocommerce-ios/pull/17037) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Created branch WOOMOB-2883-dashboard-and-wiring in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to WOOMOB-2879-headless-harness in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
