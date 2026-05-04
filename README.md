@@ -25,10 +25,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### Week 18, 2026
+### Week 19, 2026
 
 <!-- WEEKLY-SUMMARY:START -->
-This week I focused on improving Point of Sale (POS) flows across the WooCommerce ecosystem. On iOS, I cleaned up old CIAB-specific logic and fully removed the Bookings feature, simplifying the POS and In-Person Payment codebase for everyone. I also worked on adding POS roles and permissions both on mobile and in WooCommerce Core, introducing cashier and manager access capabilities with PIN-based operator switching and override flows. Meanwhile, in the Stripe gateway integration, I added metadata support to distinguish terminal-based payments, which prompted a coordinated update in WooCommerce to make POS order detection more robust. I’m also experimenting with new features like a mobile AI assistant (behind a flag) and worked on better support for JS popups in the authenticated web view to unblock complex flows like Stripe KYC onboarding.
+This week I focused heavily on building out the new Woo Mobile AI assistant for WooCommerce iOS. I developed a headless test harness and a robust smoke test skill that programmatically validates the AI assistant's real-world behavior, streamlining regression checks and accelerating development feedback. On the feature side, I implemented a full chat backend, a SwiftUI message surface with design tokens, and complex state management to support multi-turn conversations, safe tool execution, and confirmation flows for destructive actions. I also shipped key orchestration pieces including streaming chat transport, production-ready tool definitions for reads and writes, a two-level safety policy, and the orchestration loop with replay protections. Additionally, I contributed cross-platform consistency work by introducing a sliding-window history budgeter and resolved a long-standing web view bug impacting Stripe popups. On the WooCommerce PHP side, I opened a PR to improve POS order channel detection, further extending multi-channel support.
 <!-- WEEKLY-SUMMARY:END -->
 
 [View past weeks](WEEKLY-ARCHIVE.md)
