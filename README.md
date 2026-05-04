@@ -39,10 +39,10 @@ This week I focused heavily on building out the new Woo Mobile AI assistant for 
 
 <!--START_SECTION:activity-->
 1. Pushed 0 commits to WOOMOB-2883-dashboard-and-wiring in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Opened PR [#17037](https://github.com/woocommerce/woocommerce-ios/pull/17037) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Created branch WOOMOB-2883-dashboard-and-wiring in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to WOOMOB-2879-headless-harness in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#15818](https://github.com/woocommerce/woocommerce-android/pull/15818) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+3. Reviewed PR [#15807](https://github.com/woocommerce/woocommerce-android/pull/15807) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+4. Reviewed PR [#17037](https://github.com/woocommerce/woocommerce-ios/pull/17037) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
