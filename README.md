@@ -38,11 +38,11 @@ This week I focused heavily on building out the new Woo Mobile AI assistant for 
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Opened PR [#17044](https://github.com/woocommerce/woocommerce-ios/pull/17044) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to WOOMOB-2984-typed-confirmation-preview in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Created branch WOOMOB-2984-typed-confirmation-preview in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to WOOMOB-2883-dashboard-and-wiring in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#15820](https://github.com/woocommerce/woocommerce-android/pull/15820) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+2. Opened PR [#17044](https://github.com/woocommerce/woocommerce-ios/pull/17044) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to WOOMOB-2984-typed-confirmation-preview in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Created branch WOOMOB-2984-typed-confirmation-preview in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
