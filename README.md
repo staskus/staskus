@@ -15,12 +15,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 **Personal Tinkering**
 
-- 🚀 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
-- 📱 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
+- 🚀 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
+- 📱 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
 - 🔬 [staskus/iosforge](https://github.com/staskus/iosforge)
-- ⚡ [staskus/QuickBaby](https://github.com/staskus/QuickBaby)
-- 🧩 [staskus/AgentsHub](https://github.com/staskus/AgentsHub)
-- 🎯 [staskus/homebrew-tap](https://github.com/staskus/homebrew-tap)
+- ⚡ [staskus/homebrew-tap](https://github.com/staskus/homebrew-tap)
 <!-- RECENT-REPOS:END -->
 
 ---
