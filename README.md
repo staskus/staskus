@@ -17,8 +17,6 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 - 🚀 [staskus/dreamspaces](https://github.com/staskus/dreamspaces)
 - 📱 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
-- 🔬 [staskus/iosforge](https://github.com/staskus/iosforge)
-- ⚡ [staskus/homebrew-tap](https://github.com/staskus/homebrew-tap)
 <!-- RECENT-REPOS:END -->
 
 ---
