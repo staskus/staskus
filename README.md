@@ -36,11 +36,11 @@ This week I focused heavily on building out the new Woo Mobile AI assistant for 
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#15826](https://github.com/woocommerce/woocommerce-android/pull/15826) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-2. Reviewed PR [#15828](https://github.com/woocommerce/woocommerce-android/pull/15828) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. Pushed 0 commits to WOOMOB-2878-typed-card-prompt-and-empty-state in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#15832](https://github.com/woocommerce/woocommerce-android/pull/15832) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+2. Pushed 0 commits to WOOMOB-2878-typed-card-prompt-and-empty-state in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 4. Pushed 0 commits to WOOMOB-2878-typed-card-rendering-and-navigation in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to WOOMOB-2878-typed-card-foundation in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#15792](https://github.com/woocommerce/woocommerce-android/pull/15792) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
 <!--END_SECTION:activity-->
 
 ---
