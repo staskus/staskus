@@ -35,11 +35,11 @@ This week I focused heavily on building out the new Woo Mobile AI assistant for 
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to WOOMOB-3007-unify-show-cards in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Commented on [#15837](https://github.com/woocommerce/woocommerce-android/pull/15837#issuecomment-4394333706) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. Commented on [#15837](https://github.com/woocommerce/woocommerce-android/pull/15837#issuecomment-4394209478) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Reviewed PR [#15837](https://github.com/woocommerce/woocommerce-android/pull/15837) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-5. Opened PR [#17079](https://github.com/woocommerce/woocommerce-ios/pull/17079) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Opened PR [#17090](https://github.com/woocommerce/woocommerce-ios/pull/17090) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Created branch fix-test-timeouts in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to WOOMOB-3007-unify-show-cards in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Commented on [#15837](https://github.com/woocommerce/woocommerce-android/pull/15837#issuecomment-4394333706) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+5. Commented on [#15837](https://github.com/woocommerce/woocommerce-android/pull/15837#issuecomment-4394209478) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
 <!--END_SECTION:activity-->
 
 ---
