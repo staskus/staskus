@@ -35,11 +35,11 @@ This week I focused heavily on building out the new Woo Mobile AI assistant for 
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Commented on [#17101](https://github.com/woocommerce/woocommerce-ios/pull/17101#issuecomment-4404385605) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to claude/beautiful-aryabhata-723abd in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Opened PR [#17101](https://github.com/woocommerce/woocommerce-ios/pull/17101) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Created branch claude/beautiful-aryabhata-723abd in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-3028-tool-parameter-expansion in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#15854](https://github.com/woocommerce/woocommerce-android/pull/15854) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+3. Opened PR [#17107](https://github.com/woocommerce/woocommerce-ios/pull/17107) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Created branch WOOMOB-3028-tool-parameter-expansion in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Commented on [#17101](https://github.com/woocommerce/woocommerce-ios/pull/17101#issuecomment-4404385605) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
