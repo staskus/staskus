@@ -35,11 +35,11 @@ This week I focused on major improvements to the Woo Mobile AI assistant for Woo
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to WOOMOB-3015-remote-feature-flag-kill-switch in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Commented on [#15855](https://github.com/woocommerce/woocommerce-android/pull/15855#issuecomment-4418591534) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. Reviewed PR [#15855](https://github.com/woocommerce/woocommerce-android/pull/15855) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Opened PR [#17121](https://github.com/woocommerce/woocommerce-ios/pull/17121) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch WOOMOB-3015-remote-feature-flag-kill-switch in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Opened PR [#17127](https://github.com/woocommerce/woocommerce-ios/pull/17127) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Created branch WOOMOB-3052-ai-assistant-eligibility-parity in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Opened PR [#17126](https://github.com/woocommerce/woocommerce-ios/pull/17126) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Created branch WOOMOB-3016-ai-assistant-beta-notice in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
