@@ -34,11 +34,11 @@ This week I focused on major improvements to the Woo Mobile AI assistant for Woo
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to WOOMOB-3016-ai-assistant-beta-notice in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Opened PR [#17135](https://github.com/woocommerce/woocommerce-ios/pull/17135) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Created branch task/dispatch-assistant-eligibility-on-main-thread-to-avoid-a-crash in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to fix/ai-assistant-variation-card-image in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Commented on [#17126](https://github.com/woocommerce/woocommerce-ios/pull/17126#issuecomment-4433350788) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to WOOMOB-3016-ai-assistant-beta-notice in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Opened PR [#17135](https://github.com/woocommerce/woocommerce-ios/pull/17135) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch task/dispatch-assistant-eligibility-on-main-thread-to-avoid-a-crash in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
