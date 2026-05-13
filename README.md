@@ -35,10 +35,10 @@ This week I focused on major improvements to the Woo Mobile AI assistant for Woo
 
 <!--START_SECTION:activity-->
 1. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Reviewed PR [#15894](https://github.com/woocommerce/woocommerce-android/pull/15894) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. Pushed 0 commits to WOOMOB-3016-ai-assistant-beta-notice in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Commented on [#17126](https://github.com/woocommerce/woocommerce-ios/pull/17126#issuecomment-4436981523) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Commented on [#17126](https://github.com/woocommerce/woocommerce-ios/pull/17126#issuecomment-4433350788) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#15896](https://github.com/woocommerce/woocommerce-android/pull/15896) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+3. Pushed 0 commits to WOOMOB-3045-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Opened PR [#17148](https://github.com/woocommerce/woocommerce-ios/pull/17148) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch WOOMOB-3045-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
