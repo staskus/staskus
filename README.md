@@ -34,11 +34,11 @@ This week I focused on major improvements to the Woo Mobile AI assistant for Woo
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Opened PR [#17151](https://github.com/woocommerce/woocommerce-ios/pull/17151) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Created branch WOOMOB-2880-ai-assistant-telemetry in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Reviewed PR [#15896](https://github.com/woocommerce/woocommerce-android/pull/15896) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-5. Pushed 0 commits to WOOMOB-3045-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#17140](https://github.com/woocommerce/woocommerce-ios/pull/17140) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Opened PR [#17151](https://github.com/woocommerce/woocommerce-ios/pull/17151) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Created branch WOOMOB-2880-ai-assistant-telemetry in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#15896](https://github.com/woocommerce/woocommerce-android/pull/15896) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
 <!--END_SECTION:activity-->
 
 ---
