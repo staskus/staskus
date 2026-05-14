@@ -34,11 +34,11 @@ This week I focused on major improvements to the Woo Mobile AI assistant for Woo
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Opened PR [#17164](https://github.com/woocommerce/woocommerce-ios/pull/17164) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Created branch WOOMOB-3083-ai-assistant-release-prep-prompt-update in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#17162](https://github.com/woocommerce/woocommerce-ios/pull/17162) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Commented on [#17162](https://github.com/woocommerce/woocommerce-ios/pull/17162#issuecomment-4450283451) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch WOOMOB-3083-ai-assistant-release-prep in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#15915](https://github.com/woocommerce/woocommerce-android/pull/15915) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+3. Pushed 0 commits to WOOMOB-3083-ai-assistant-release-prep-docs-link in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Commented on [#17164](https://github.com/woocommerce/woocommerce-ios/pull/17164#issuecomment-4453746759) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to WOOMOB-3083-ai-assistant-release-prep in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
