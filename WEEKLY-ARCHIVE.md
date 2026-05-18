@@ -4,6 +4,12 @@ Past weekly summaries, newest first.
 
 ---
 
+### Week 20, 2026
+
+This week I focused on major improvements to the Woo Mobile AI assistant for WooCommerce’s iOS app. I delivered a three-part stack that replaced raw JSON tool results with typed entity cards, enabling a more native, tap-through chat experience where analytics, order, and product details show up as rich cards that link to their respective detail views. The assistant can now explicitly render analytics cards via show_cards, aligning iOS behavior with Android and making prompt engineering more consistent. I also introduced a curated empty state with interactive suggestions to help merchants discover what they can ask the assistant, and tightened both tool payloads and store-overview logic for better results. Alongside these feature upgrades, I tracked down and removed a set of flaky navigation tests caused by concurrency bugs, then added time limits for more reliable CI runs. On the server side, I contributed to the WooCommerce core project by extending POS order checks to support Stripe terminal payments, improving email logic for mobile POS orders.
+
+---
+
 ### Week 19, 2026
 
 This week I focused heavily on building out the new Woo Mobile AI assistant for WooCommerce iOS. I developed a headless test harness and a robust smoke test skill that programmatically validates the AI assistant's real-world behavior, streamlining regression checks and accelerating development feedback. On the feature side, I implemented a full chat backend, a SwiftUI message surface with design tokens, and complex state management to support multi-turn conversations, safe tool execution, and confirmation flows for destructive actions. I also shipped key orchestration pieces including streaming chat transport, production-ready tool definitions for reads and writes, a two-level safety policy, and the orchestration loop with replay protections. Additionally, I contributed cross-platform consistency work by introducing a sliding-window history budgeter and resolved a long-standing web view bug impacting Stripe popups. On the WooCommerce PHP side, I opened a PR to improve POS order channel detection, further extending multi-channel support.
