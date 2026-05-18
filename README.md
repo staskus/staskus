@@ -34,11 +34,11 @@ This week I focused on shipping and refining the new AI Assistant feature for th
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Reviewed PR [#17186](https://github.com/woocommerce/woocommerce-ios/pull/17186) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#15937](https://github.com/woocommerce/woocommerce-android/pull/15937) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Reviewed PR [#15936](https://github.com/woocommerce/woocommerce-android/pull/15936) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-5. Pushed 0 commits to release/24.8 in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-3045-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to WOOMOB-3064-ai-api-proxy-backend in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Opened PR [#17188](https://github.com/woocommerce/woocommerce-ios/pull/17188) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Created branch WOOMOB-3064-ai-api-proxy-backend in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
