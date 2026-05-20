@@ -34,11 +34,11 @@ This week I focused on shipping and refining the new AI Assistant feature for th
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Reviewed PR [#15943](https://github.com/woocommerce/woocommerce-android/pull/15943) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-2. Reviewed PR [#15942](https://github.com/woocommerce/woocommerce-android/pull/15942) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-3. Reviewed PR [#15941](https://github.com/woocommerce/woocommerce-android/pull/15941) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-4. Commented on [#17148](https://github.com/woocommerce/woocommerce-ios/pull/17148#issuecomment-4479205486) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Pushed 0 commits to WOOMOB-3045-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Opened PR [#17207](https://github.com/woocommerce/woocommerce-ios/pull/17207) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Created branch ai-assistant-loop-safety in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Reviewed PR [#15954](https://github.com/woocommerce/woocommerce-android/pull/15954) in [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
+4. Pushed 0 commits to WOOMOB-3064-ai-api-proxy-backend in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Opened PR [#17204](https://github.com/woocommerce/woocommerce-ios/pull/17204) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
