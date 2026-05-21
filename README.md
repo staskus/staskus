@@ -34,11 +34,11 @@ This week I focused on shipping and refining the new AI Assistant feature for th
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Commented on [#17148](https://github.com/woocommerce/woocommerce-ios/pull/17148#issuecomment-4508468601) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to ai-assistant-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to WOOMOB-3064-ai-api-proxy-backend in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Opened PR [#17213](https://github.com/woocommerce/woocommerce-ios/pull/17213) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch ai-assistant-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Opened PR [#17217](https://github.com/woocommerce/woocommerce-ios/pull/17217) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Created branch ai-assistant-batch-enforcement in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Opened PR [#17216](https://github.com/woocommerce/woocommerce-ios/pull/17216) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Created branch ai-assistant-product-capabilities in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Commented on [#17148](https://github.com/woocommerce/woocommerce-ios/pull/17148#issuecomment-4508468601) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
