@@ -34,11 +34,11 @@ This week I focused on shipping and refining the new AI Assistant feature for th
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Opened PR [#17212](https://github.com/woocommerce/woocommerce-ios/pull/17212) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to fix/bulk-confirmation-duplicate-summary in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Commented on [#17148](https://github.com/woocommerce/woocommerce-ios/pull/17148#issuecomment-4508468601) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Pushed 0 commits to ai-assistant-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 3. Pushed 0 commits to WOOMOB-3064-ai-api-proxy-backend in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Opened PR [#17207](https://github.com/woocommerce/woocommerce-ios/pull/17207) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Opened PR [#17213](https://github.com/woocommerce/woocommerce-ios/pull/17213) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Created branch ai-assistant-consolidate-product-tools in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
