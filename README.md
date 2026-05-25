@@ -34,11 +34,11 @@ This week I focused on open source contributions to the WooCommerce iOS app, wit
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to woomob-pos-payment-identification-stripe in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-2. Commented on [#17259](https://github.com/woocommerce/woocommerce-ios/pull/17259#issuecomment-4534820083) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to WOOMOB-3138-pos-pin-entry-view in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Opened PR [#17260](https://github.com/woocommerce/woocommerce-ios/pull/17260) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Created branch WOOMOB-3138-pos-pin-entry-view in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Pushed 0 commits to WOOMOB-3139-pos-lock-screen-view in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Opened PR [#17262](https://github.com/woocommerce/woocommerce-ios/pull/17262) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Created branch WOOMOB-3139-pos-lock-screen-view in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to woomob-pos-payment-identification-stripe in [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+5. Commented on [#17259](https://github.com/woocommerce/woocommerce-ios/pull/17259#issuecomment-4534820083) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
