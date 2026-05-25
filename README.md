@@ -21,10 +21,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### Week 21, 2026
+### Week 22, 2026
 
 <!-- WEEKLY-SUMMARY:START -->
-This week I focused on shipping and refining the new AI Assistant feature for the WooCommerce iOS app. I wrapped up a major push leading to its general availability, enabling the local feature flag for all builds and switching the chat model to gpt-4o. I aligned the system prompt and tool catalog with the Android implementation for cross-platform consistency, added privacy-friendly telemetry via Tracks to measure adoption and engagement, and polished onboarding with an undismissable early access notice and in-app feedback channel. I also improved the assistant’s Markdown link handling to restrict unsafe schemes, fixed variation cards missing their images, and made documentation links in chat visibly tappable so merchants have more actionable support. Across the board, it was satisfying to see merchant-facing polish and robust telemetry come together in this release.
+This week I focused on open source contributions to the WooCommerce iOS app, with major work on the AI Assistant feature. I migrated the chat backend from the legacy Jetpack endpoint to a new, dedicated woo-mobile-ai API, introducing a streaming chat-completions client and switching authentication to use WPCOM OAuth. I also cleaned up legacy code, expanded unit test coverage, and improved error handling across rate-limit, auth, and upstream cases. To support new agentic workflows, I added in-tree documentation for the AI Assistant module, making it easier for agents and engineers to get up to speed. Overall, my efforts have made the AI Assistant faster, more maintainable, and ready for the next wave of integration work.
 <!-- WEEKLY-SUMMARY:END -->
 
 [View past weeks](WEEKLY-ARCHIVE.md)

@@ -4,6 +4,12 @@ Past weekly summaries, newest first.
 
 ---
 
+### Week 21, 2026
+
+This week I focused on shipping and refining the new AI Assistant feature for the WooCommerce iOS app. I wrapped up a major push leading to its general availability, enabling the local feature flag for all builds and switching the chat model to gpt-4o. I aligned the system prompt and tool catalog with the Android implementation for cross-platform consistency, added privacy-friendly telemetry via Tracks to measure adoption and engagement, and polished onboarding with an undismissable early access notice and in-app feedback channel. I also improved the assistant’s Markdown link handling to restrict unsafe schemes, fixed variation cards missing their images, and made documentation links in chat visibly tappable so merchants have more actionable support. Across the board, it was satisfying to see merchant-facing polish and robust telemetry come together in this release.
+
+---
+
 ### Week 20, 2026
 
 This week I focused on major improvements to the Woo Mobile AI assistant for WooCommerce’s iOS app. I delivered a three-part stack that replaced raw JSON tool results with typed entity cards, enabling a more native, tap-through chat experience where analytics, order, and product details show up as rich cards that link to their respective detail views. The assistant can now explicitly render analytics cards via show_cards, aligning iOS behavior with Android and making prompt engineering more consistent. I also introduced a curated empty state with interactive suggestions to help merchants discover what they can ask the assistant, and tightened both tool payloads and store-overview logic for better results. Alongside these feature upgrades, I tracked down and removed a set of flaky navigation tests caused by concurrency bugs, then added time limits for more reliable CI runs. On the server side, I contributed to the WooCommerce core project by extending POS order checks to support Stripe terminal payments, improving email logic for mobile POS orders.
