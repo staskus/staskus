@@ -34,11 +34,11 @@ This week I focused on open source contributions to the WooCommerce iOS app, wit
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to WOOMOB-3143-pos-app-wiring in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Opened PR [#17277](https://github.com/woocommerce/woocommerce-ios/pull/17277) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to WOOMOB-3142-pos-access-session in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Reviewed PR [#17272](https://github.com/woocommerce/woocommerce-ios/pull/17272) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Opened PR [#17279](https://github.com/woocommerce/woocommerce-ios/pull/17279) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Created branch WOOMOB-3149-pos-auto-lock in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Pushed 0 commits to WOOMOB-3143-pos-app-wiring in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Opened PR [#17277](https://github.com/woocommerce/woocommerce-ios/pull/17277) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
