@@ -34,11 +34,11 @@ This week I focused on open source contributions to the WooCommerce iOS app, wit
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Pushed 0 commits to WOOMOB-3148-pos-staff-fetch in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Opened PR [#17282](https://github.com/woocommerce/woocommerce-ios/pull/17282) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Created branch WOOMOB-3148-pos-staff-fetch in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Pushed 0 commits to trunk in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Reviewed PR [#17277](https://github.com/woocommerce/woocommerce-ios/pull/17277) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#17280](https://github.com/woocommerce/woocommerce-ios/pull/17280) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#17283](https://github.com/woocommerce/woocommerce-ios/pull/17283) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Commented on [#17282](https://github.com/woocommerce/woocommerce-ios/pull/17282#issuecomment-4566698028) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to WOOMOB-3148-pos-staff-fetch in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Opened PR [#17282](https://github.com/woocommerce/woocommerce-ios/pull/17282) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
