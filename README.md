@@ -34,11 +34,11 @@ This week I focused heavily on building out the new Point of Sale roles and perm
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Commented on [#17279](https://github.com/woocommerce/woocommerce-ios/pull/17279#issuecomment-4572957435) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Pushed 0 commits to WOOMOB-3149-pos-auto-lock in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Reviewed PR [#17285](https://github.com/woocommerce/woocommerce-ios/pull/17285) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Commented on [#17282](https://github.com/woocommerce/woocommerce-ios/pull/17282#issuecomment-4571103560) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Reviewed PR [#17284](https://github.com/woocommerce/woocommerce-ios/pull/17284) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Reviewed PR [#17284](https://github.com/woocommerce/woocommerce-ios/pull/17284) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+2. Reviewed PR [#17280](https://github.com/woocommerce/woocommerce-ios/pull/17280) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+3. Commented on [#17279](https://github.com/woocommerce/woocommerce-ios/pull/17279#issuecomment-4572957435) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+4. Pushed 0 commits to WOOMOB-3149-pos-auto-lock in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+5. Reviewed PR [#17285](https://github.com/woocommerce/woocommerce-ios/pull/17285) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
