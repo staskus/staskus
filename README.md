@@ -21,10 +21,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### Week 23, 2026
+### Week 24, 2026
 
 <!-- WEEKLY-SUMMARY:START -->
-This week I focused heavily on building out the new Point of Sale roles and permissions feature set for WooCommerce iOS. I shipped the type-safe foundations, interactive lock screen overlays, and a reusable PIN entry numpad, all tucked behind a feature flag for safe iteration. The POS now supports PIN-protected sign-in with a progressive rate limiter and persistent lockouts, plus a full manager override flow with modern error feedback. On the WooCommerce PHP side, I added support for Stripe Terminal (IPP) order recognition so that POS email rules apply to more types of in-person payments, complete with new test coverage. It has been satisfying to see both the iOS and server sides moving together to unlock more robust POS experiences.
+This week I focused on enhancing security and usability for WooCommerce POS on iOS. I implemented a new inactivity-based auto-lock feature that ensures unattended iPads automatically lock after five minutes, adding an important layer of protection for store owners. The lock persists even after the app is restarted, so the POS does not drop users into the dashboard unintentionally. I also carefully tailored the timer logic to avoid disrupting ongoing card transactions, keeping the experience smooth for cashiers during active payments. It was interesting to refine these edge cases and make sure the new behavior fits naturally into real-world store workflows.
 <!-- WEEKLY-SUMMARY:END -->
 
 [View past weeks](WEEKLY-ARCHIVE.md)

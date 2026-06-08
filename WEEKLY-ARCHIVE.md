@@ -4,6 +4,12 @@ Past weekly summaries, newest first.
 
 ---
 
+### Week 23, 2026
+
+This week I focused heavily on building out the new Point of Sale roles and permissions feature set for WooCommerce iOS. I shipped the type-safe foundations, interactive lock screen overlays, and a reusable PIN entry numpad, all tucked behind a feature flag for safe iteration. The POS now supports PIN-protected sign-in with a progressive rate limiter and persistent lockouts, plus a full manager override flow with modern error feedback. On the WooCommerce PHP side, I added support for Stripe Terminal (IPP) order recognition so that POS email rules apply to more types of in-person payments, complete with new test coverage. It has been satisfying to see both the iOS and server sides moving together to unlock more robust POS experiences.
+
+---
+
 ### Week 22, 2026
 
 This week I focused on open source contributions to the WooCommerce iOS app, with major work on the AI Assistant feature. I migrated the chat backend from the legacy Jetpack endpoint to a new, dedicated woo-mobile-ai API, introducing a streaming chat-completions client and switching authentication to use WPCOM OAuth. I also cleaned up legacy code, expanded unit test coverage, and improved error handling across rate-limit, auth, and upstream cases. To support new agentic workflows, I added in-tree documentation for the AI Assistant module, making it easier for agents and engineers to get up to speed. Overall, my efforts have made the AI Assistant faster, more maintainable, and ready for the next wave of integration work.
