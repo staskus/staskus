@@ -17,10 +17,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### Week 24, 2026
+### Week 25, 2026
 
 <!-- WEEKLY-SUMMARY:START -->
-This week I focused on enhancing security and usability for WooCommerce POS on iOS. I implemented a new inactivity-based auto-lock feature that ensures unattended iPads automatically lock after five minutes, adding an important layer of protection for store owners. The lock persists even after the app is restarted, so the POS does not drop users into the dashboard unintentionally. I also carefully tailored the timer logic to avoid disrupting ongoing card transactions, keeping the experience smooth for cashiers during active payments. It was interesting to refine these edge cases and make sure the new behavior fits naturally into real-world store workflows.
+This week, I focused on improving the user experience in open source projects by tackling a pesky UI bug in WooCommerce for iOS. Specifically, I submitted a pull request to fix an issue where the totals shimmer animation would sometimes freeze and not animate as expected. The solution involved carefully revisiting a previous performance optimization and restoring part of the geometry grouping necessary for reliable animation, especially in conjunction with the SwiftUI-Shimmer library. Debugging this required a deep dive into SwiftUI's rendering pipeline and animation lifecycle.
 <!-- WEEKLY-SUMMARY:END -->
 
 [View past weeks](WEEKLY-ARCHIVE.md)
