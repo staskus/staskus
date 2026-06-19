@@ -9,14 +9,11 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 - 🏢 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 - 🤝 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-- 🌍 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-- 🔩 [Luc45/woocommerce](https://github.com/Luc45/woocommerce)
-- 📋 [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
-- 🛡 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
-
-**Personal Tinkering**
-
-- 🚀 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
+- 🌍 [modernWebDev9/Woocommerce_Android](https://github.com/modernWebDev9/Woocommerce_Android)
+- 🔩 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
+- 📋 [Luc45/woocommerce](https://github.com/Luc45/woocommerce)
+- 🛡 [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
+- 📊 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
 <!-- RECENT-REPOS:END -->
 
 ---
