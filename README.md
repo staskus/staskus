@@ -14,6 +14,10 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 - 📋 [Luc45/woocommerce](https://github.com/Luc45/woocommerce)
 - 🛡 [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
 - 📊 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
+
+**Personal Tinkering**
+
+- 🚀 [staskus/Pomafocus](https://github.com/staskus/Pomafocus)
 <!-- RECENT-REPOS:END -->
 
 ---
