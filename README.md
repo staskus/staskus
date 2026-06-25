@@ -2,32 +2,6 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 ---
 
-### What I Worked on Recently
-
-<!-- RECENT-REPOS:START -->
-**Open Source**
-
-- 🏢 [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-- 🤝 [woocommerce/woocommerce-android](https://github.com/woocommerce/woocommerce-android)
-- 🌍 [modernWebDev9/Woocommerce_Android](https://github.com/modernWebDev9/Woocommerce_Android)
-- 🔩 [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce)
-- 📋 [Luc45/woocommerce](https://github.com/Luc45/woocommerce)
-- 🛡 [woocommerce/woocommerce-gateway-stripe](https://github.com/woocommerce/woocommerce-gateway-stripe)
-- 📊 [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
-<!-- RECENT-REPOS:END -->
-
----
-
-### Week 25, 2026
-
-<!-- WEEKLY-SUMMARY:START -->
-This week, I focused on improving the user experience in open source projects by tackling a pesky UI bug in WooCommerce for iOS. Specifically, I submitted a pull request to fix an issue where the totals shimmer animation would sometimes freeze and not animate as expected. The solution involved carefully revisiting a previous performance optimization and restoring part of the geometry grouping necessary for reliable animation, especially in conjunction with the SwiftUI-Shimmer library. Debugging this required a deep dive into SwiftUI's rendering pipeline and animation lifecycle.
-<!-- WEEKLY-SUMMARY:END -->
-
-[View past weeks](WEEKLY-ARCHIVE.md)
-
----
-
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
