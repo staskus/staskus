@@ -6,7 +6,6 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 
 <!--START_SECTION:activity-->
 1. Reviewed PR [#17284](https://github.com/woocommerce/woocommerce-ios/pull/17284) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Reviewed PR [#17280](https://github.com/woocommerce/woocommerce-ios/pull/17280) in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
 <!--END_SECTION:activity-->
 
 ---
