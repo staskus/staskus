@@ -15,86 +15,146 @@ jobs:
       - name: Fetch and filter activity
         run: |
           python3 - <<'PYEOF'
-          import json, os, re, urllib.request
+          import json, os, re, sys, time, urllib.request
+          from datetime import datetime, timedelta, timezone
 
           username = "staskus"
+          MIN_ITEMS = 5
 
-          # Use unauthenticated request for public events API
-          # Authenticated requests with repo-scoped tokens only see events for those repos
-          req = urllib.request.Request(
-              "https://api.github.com/users/" + username + "/events/public?per_page=100",
-              headers={
-                  "Accept": "application/vnd.github+json"
-              }
-          )
-          with urllib.request.urlopen(req) as resp:
-              events = json.loads(resp.read())
+          fork_cache = {}
 
-          lines = []
-          for event in events:
+          def repo_is_fork(repo):
+              if repo in fork_cache:
+                  return fork_cache[repo]
+              is_fork = False
+              try:
+                  req = urllib.request.Request(
+                      "https://api.github.com/repos/" + repo,
+                      headers={"Accept": "application/vnd.github+json", "User-Agent": username}
+                  )
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      is_fork = json.loads(resp.read()).get("fork", False)
+              except Exception as e:
+                  print("repo lookup failed for " + repo + ": " + str(e))
+              fork_cache[repo] = is_fork
+              return is_fork
+
+          def event_to_line(event):
               repo = event.get("repo", {}).get("name", "")
-              # Skip personal staskus repos
-              if repo.startswith("staskus/"):
-                  continue
-
+              if not repo or repo.startswith(username + "/"):
+                  return None
+              if repo_is_fork(repo):
+                  return None
               etype = event.get("type", "")
               payload = event.get("payload", {})
-              line = None
-
               if etype == "PullRequestEvent":
                   pr = payload.get("pull_request", {})
                   action = payload.get("action", "")
                   merged = pr.get("merged", False)
                   num = pr.get("number", "")
                   url = pr.get("html_url", "") or ("https://github.com/" + repo + "/pull/" + str(num))
-                  title = pr.get("title", "")
                   if action == "closed" and merged:
-                      line = "Merged PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
-                  elif action == "opened":
-                      line = "Opened PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
-
+                      return "Merged PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+                  if action == "opened":
+                      return "Opened PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+              elif etype == "PullRequestReviewEvent":
+                  pr = payload.get("pull_request", {})
+                  num = pr.get("number", "")
+                  url = pr.get("html_url", "") or ("https://github.com/" + repo + "/pull/" + str(num))
+                  return "Reviewed PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
               elif etype == "IssueCommentEvent":
                   comment = payload.get("comment", {})
                   issue = payload.get("issue", {})
                   num = issue.get("number", "")
-                  url = comment.get("html_url", "")
-                  line = "Commented on [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
-
+                  url = comment.get("html_url", "") or issue.get("html_url", "")
+                  if url:
+                      return "Commented on [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
               elif etype == "IssuesEvent":
                   action = payload.get("action", "")
                   issue = payload.get("issue", {})
                   num = issue.get("number", "")
                   url = issue.get("html_url", "")
-                  if action == "opened":
-                      line = "Opened issue [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
-                  elif action == "closed":
-                      line = "Closed issue [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
-
+                  if action == "opened" and url:
+                      return "Opened issue [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
+                  if action == "closed" and url:
+                      return "Closed issue [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
               elif etype == "PushEvent":
                   count = payload.get("size", 0)
                   ref = payload.get("ref", "").replace("refs/heads/", "")
-                  line = "Pushed " + str(count) + " commit" + ("s" if count != 1 else "") + " to " + ref + " in [" + repo + "](https://github.com/" + repo + ")"
+                  return "Pushed " + str(count) + " commit" + ("s" if count != 1 else "") + " to " + ref + " in [" + repo + "](https://github.com/" + repo + ")"
+              return None
 
-              elif etype == "CreateEvent":
-                  ref_type = payload.get("ref_type", "")
-                  ref = payload.get("ref", "")
-                  if ref_type == "branch":
-                      line = "Created branch " + ref + " in [" + repo + "](https://github.com/" + repo + ")"
+          lines = []
+          seen = set()
 
-              elif etype == "PullRequestReviewEvent":
-                  pr = payload.get("pull_request", {})
-                  num = pr.get("number", "")
-                  url = pr.get("html_url", "") or ("https://github.com/" + repo + "/pull/" + str(num))
-                  line = "Reviewed PR [#" + str(num) + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")"
-
-              if line and line not in [l.split(". ", 1)[1] if ". " in l else l for l in lines]:
+          def add_line(line):
+              if line and line not in seen:
+                  seen.add(line)
                   lines.append(str(len(lines) + 1) + ". " + line)
-                  if len(lines) >= 5:
+
+          # 1) Recent events API (richer set: PRs, reviews, comments, issues, pushes)
+          for page in range(1, 11):
+              url = ("https://api.github.com/users/" + username + "/events/public?per_page=100&page=" + str(page))
+              try:
+                  req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json", "User-Agent": username})
+                  with urllib.request.urlopen(req, timeout=20) as resp:
+                      page_events = json.loads(resp.read())
+              except Exception as e:
+                  print("events page " + str(page) + " error: " + str(e))
+                  break
+              if not page_events:
+                  break
+              for event in page_events:
+                  if len(lines) >= MIN_ITEMS:
                       break
+                  add_line(event_to_line(event))
+              if len(lines) >= MIN_ITEMS:
+                  break
+
+          # 2) Fallback: expand the timeframe using the Search API until we have enough
+          if len(lines) < MIN_ITEMS:
+              from collections import OrderedDict
+              for days in [7, 30, 90, 180, 365]:
+                  if len(lines) >= MIN_ITEMS:
+                      break
+                  since = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
+                  for page in range(1, 6):
+                      if len(lines) >= MIN_ITEMS:
+                          break
+                      url = (
+                          "https://api.github.com/search/commits"
+                          "?q=author:" + username + "+is:public+fork:false+committer-date:>" + since
+                          + "&per_page=50&page=" + str(page) + "&sort=committer-date&order=desc"
+                      )
+                      try:
+                          req = urllib.request.Request(url, headers={"Accept": "application/vnd.github+json", "User-Agent": username})
+                          with urllib.request.urlopen(req, timeout=20) as resp:
+                              data = json.loads(resp.read())
+                      except Exception as e:
+                          print("search page " + str(page) + " error: " + str(e))
+                          break
+                      items = data.get("items", [])
+                      if not items:
+                          break
+                      for item in items:
+                          if len(lines) >= MIN_ITEMS:
+                              break
+                          repo = item.get("repository", {}).get("full_name", "")
+                          if not repo or repo.startswith(username + "/"):
+                              continue
+                          msg = (item.get("commit", {}).get("message", "") or "").split("\n")[0].strip()
+                          if not msg:
+                              continue
+                          low = msg.lower()
+                          if low.startswith("merge") or "bot" in low:
+                              continue
+                          sha = item.get("sha", "")
+                          url = "https://github.com/" + repo + "/commit/" + sha
+                          add_line("Committed [" + msg + "](" + url + ") in [" + repo + "](https://github.com/" + repo + ")")
+                      time.sleep(2)
 
           if not lines:
-              print("No non-personal activity found.")
-              import sys
+              print("No non-personal, non-fork activity found.")
               sys.exit(0)
 
           activity_text = "\n".join(lines)
