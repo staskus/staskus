@@ -5,11 +5,7 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Opened PR [#17101](https://github.com/woocommerce/woocommerce-ios/pull/17101) — POS: Fix totals shimmer occasionally not animating in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-2. Merged PR [#17279](https://github.com/woocommerce/woocommerce-ios/pull/17279) — POS Roles: auto-lock and inactivity tracking in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-3. Merged PR [#17277](https://github.com/woocommerce/woocommerce-ios/pull/17277) — POS Roles: app-target wiring and lock screen overlay in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-4. Merged PR [#17272](https://github.com/woocommerce/woocommerce-ios/pull/17272) — POS Roles: PIN sign-in session and rate limiter in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
-5. Merged PR [#17270](https://github.com/woocommerce/woocommerce-ios/pull/17270) — POS Roles: Add manager override PIN flow in [woocommerce/woocommerce-ios](https://github.com/woocommerce/woocommerce-ios)
+1. Merged PR [#11362](https://github.com/Automattic/woocommerce-payments/pull/11362) — Store ipp_channel from intent metadata and suppress IPP receipt for POS orders in [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
 <!--END_SECTION:activity-->
 
 ---
