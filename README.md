@@ -5,7 +5,11 @@ Software Engineer at [Automattic](https://automattic.com) | [WooCommerce](https:
 ### Recent Open Source Activity
 
 <!--START_SECTION:activity-->
-1. Merged PR [#11362](https://github.com/Automattic/woocommerce-payments/pull/11362) — Store ipp_channel from intent metadata and suppress IPP receipt for POS orders in [Automattic/woocommerce-payments](https://github.com/Automattic/woocommerce-payments)
+1. Merged PR [#23115](https://github.com/wordpress-mobile/WordPress-iOS/pull/23115) — Subscribers List Details: Update People List UI in [wordpress-mobile/WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS)
+2. Merged PR [#23026](https://github.com/wordpress-mobile/WordPress-iOS/pull/23026) — Stats Traffic & Subscribers: Reintroduce Traffic tab with an old chart and a new date picker in [wordpress-mobile/WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS)
+3. Merged PR [#22703](https://github.com/wordpress-mobile/WordPress-iOS/pull/22703) — Stats Traffic: Update UI Tests in [wordpress-mobile/WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS)
+4. Merged PR [#22314](https://github.com/wordpress-mobile/WordPress-iOS/pull/22314) — Fix crash when accessing widget week summary data outside bounds in [wordpress-mobile/WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS)
+5. Merged PR [#22254](https://github.com/wordpress-mobile/WordPress-iOS/pull/22254) — Domain: Refactor to use a common domain selection view in [wordpress-mobile/WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS)
 <!--END_SECTION:activity-->
 
 ---
